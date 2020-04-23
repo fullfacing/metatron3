@@ -1,0 +1,53 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import { Stack, Box,} from '../';
+
+<Meta title="Layout | Stack" />
+
+# Stack
+
+A stacking layout component with spacing between components.
+
+## Column
+
+By default, components will display in a column.
+
+<Preview withToolbar >
+    <Story name="Column">
+        <Stack space={2}>
+          <Box sx={{bg: 'primary', height: 100, width: 100}} />
+          <Box sx={{bg: 'primary', height: 100, width: 100}} />
+        </Stack>
+    </Story>
+</Preview >
+
+## Row
+
+<Preview withToolbar >
+    <Story name="Row">
+        <Stack space={4} variant="row">
+          <Box sx={{bg: 'primary', height: 100, width: 100}} />
+          <Box sx={{bg: 'primary', height: 100, width: 100}} />
+        </Stack>
+    </Story>
+</Preview >
+
+
+## Flexible spacing
+
+An array of `space` values can be provided if different spacing is required between components.
+
+<Preview withToolbar >
+    <Story name="Flexible">
+        <Stack space={[2, 7, 4]}>
+          <Box sx={{bg: 'primary', height: 100, width: 100}} />
+          <Box sx={{bg: 'primary', height: 100, width: 100}} />
+          <Box sx={{bg: 'primary', height: 100, width: 100}} />
+          <Box sx={{bg: 'primary', height: 100, width: 100}} />
+        </Stack>
+    </Story>
+</Preview >
+
+## Props
+
+<Props of={Stack} />

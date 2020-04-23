@@ -1,6 +1,15 @@
 import * as ThemeUI from 'theme-ui';
 
+// Theme
+export { default as theme } from './components/theme';
+
 // Components
+
+// Layout
+export { default as Flex } from './components/layout/flex';
+export { default as Spacer } from './components/layout/spacer';
+export { default as Stack } from './components/layout/stack';
+
 export { default as Global } from './components/global';
 export { default as ThemeProvider } from './components/theme-provider';
 export { default as VisuallyHidden } from './components/visually-hidden';
@@ -10,12 +19,12 @@ export { default as Heading } from './components/heading';
 export { default as Header } from './components/header';
 export { default as Text } from './components/text';
 export { default as Nav } from './components/nav';
-export { default as Flex } from './components/flex';
 export { default as Logo } from './components/logo';
 export { default as Table } from './components/table';
 export { default as Td } from './components/td';
 export { default as THead } from './components/thead';
 export { default as Footer } from './components/footer';
+export { default as Badge } from './components/badge';
 export const Box = ThemeUI.Box;
 export const Grid = ThemeUI.Grid;
 export const Link = ThemeUI.Link;
@@ -30,7 +39,6 @@ export const Message = ThemeUI.Message;
 export const NavLink = ThemeUI.NavLink;
 export const Container = ThemeUI.Container;
 export const Embed = ThemeUI.Embed;
-export const Badge = ThemeUI.Badge;
 export const Avatar = ThemeUI.Avatar;
 export const Divider = ThemeUI.Divider;
 

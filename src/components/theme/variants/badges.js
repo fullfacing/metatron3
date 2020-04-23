@@ -1,16 +1,25 @@
+const defaultStyles = {
+  paddingX: 2,
+  paddingY: 1,
+  borderRadius: 2,
+};
+
 export default {
   primary: {
+    ...defaultStyles,
     color: 'background',
     bg: 'primary',
-    paddingX: 2,
-    borderRadius: 2,
   },
   outline: {
+    ...defaultStyles,
     color: 'primary',
     bg: 'transparent',
-    borderRadius: 2,
     border: '1px solid',
-    paddingX: 2,
     borderColor: 'primary',
+  },
+  danger: {
+    ...defaultStyles,
+    color: 'background',
+    bg: 'red.6',
   },
 };

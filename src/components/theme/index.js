@@ -1,6 +1,7 @@
 import fontSizes from './font-sizes';
 import fonts from './fonts';
 import space from './space';
+import sizes from './sizes';
 import shadows from './shadows';
 
 import buttons from './variants/buttons';
@@ -22,6 +23,7 @@ export default {
   },
   fontSizes,
   shadows,
+  sizes,
   fontWeights: {
     body: 400,
     button: 700,

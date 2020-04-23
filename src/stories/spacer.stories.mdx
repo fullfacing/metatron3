@@ -1,0 +1,28 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import { Spacer, Text, Box } from '../';
+
+<Meta title="Layout | Spacer" component={Spacer} />
+
+# Spacer
+
+Use the Spacer component to add spacing between components. Based on [Artsy's Palette Spacer](https://palette.artsy.net/).
+
+## Default
+
+<Preview withToolbar >
+    <Story name="Default">
+      <Box>
+        <Text>Some text</Text>
+        <Spacer height="100px"/>
+        <Text>Some more text</Text>
+      </Box>
+    </Story>
+</Preview >
+
+## Props
+
+<Props of={Spacer}/>
+
+
+

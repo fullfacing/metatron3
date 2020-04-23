@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import Flex from './flex';
+import Flex from './layout/flex';
 import Text from './text';
 
 const Footer = ({ ...props }) => (

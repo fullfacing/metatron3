@@ -5,6 +5,7 @@ export default {
     paddingX: 3,
     paddingY: 1,
     height: '42px',
+    borderColor: 'gray.3',
     ':focus': {
       outline: 'none',
       borderColor: 'primary',
@@ -31,6 +32,7 @@ export default {
     paddingX: 3,
     paddingY: 1,
     height: '42px',
+    borderColor: 'gray.3',
     color: 'text',
     boxShadow: 'default',
     ':focus': {
