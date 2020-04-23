@@ -1,0 +1,19 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import { theme, Box, Flex, Text } from '../';
+
+<Meta title="Foundation | Spacing" />
+
+# Spacing
+
+We use a standard white space scale based on on `8px`.
+
+## Default
+
+<Preview withToolbar >
+    <Story name="Default">
+      {theme.space.map(current => <Flex alignItems="center"><Box sx={{mr: 1, bg: 'primary', width: `${current}px`, height: '20px'}}/><Text>{current}px</Text></Flex>)}
+    </Story>
+</Preview >
+
+
