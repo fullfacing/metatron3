@@ -16,7 +16,6 @@
     "lint:package": "sort-package-json",
     "start": "start-storybook -p 9009 -s public",
     "storybook": "build-storybook -s public",
-    "storybook-docs": "build-storybook -s public --docs",
     "test": "jest"
   },
   "husky": {
