@@ -1,0 +1,40 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+
+import { Flex, Box } from '../';
+
+<Meta title="Layout | Flex" component={Flex} />
+
+# Flex
+
+Responsive flexbox layout component.
+
+## Primary
+
+<Preview withToolbar >
+    <Story name="Default">
+      <Flex justifyContent="space-between">
+        <Box
+          p={3}
+          sx={{
+            width: '50%'
+          }}
+          color='white'
+          bg='primary'>
+          Flex
+        </Box>
+        <Box
+          p={3}
+          sx={{
+            width: '50%'
+          }}
+          color='white'
+          bg='secondary'>
+          Box
+        </Box>
+      </Flex>
+    </Story>
+</Preview >
+
+## Props
+
+Please refer to the documentation for [Rebass Flex](https://rebassjs.org/flex).

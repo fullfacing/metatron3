@@ -1,0 +1,40 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
+
+import { Badge } from '../';
+
+<Meta title="Components | Badge" component={Badge} />
+
+# Badge
+
+Badges are used to highlight an item's status for quick recognition.
+
+## Primary
+
+<Preview withToolbar>
+  <Story name="Default">
+    <Badge>Badge</Badge>
+  </Story>
+</Preview>
+
+## Outline
+
+<Preview withToolbar>
+  <Story name="Outline">
+      <Badge variant="outline">Badge</Badge>
+  </Story>
+</Preview>
+
+## Danger
+
+<Preview withToolbar>
+  <Story name="Danger">
+      <Badge variant="danger">Badge</Badge>
+  </Story>
+</Preview>
+
+## Props
+
+<Props of={Badge} />
+
+
+

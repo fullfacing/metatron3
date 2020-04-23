@@ -1,0 +1,26 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+
+import { Grid, Box } from '../';
+
+<Meta title="Layout | Grid" component={Grid} />
+
+# Grid
+
+CSS grid layout component to arrange direct child elements in a tiled grid layout.
+
+## Primary
+
+<Preview withToolbar >
+    <Story name="Default">
+        <Grid width={[ 128, null, 192 ]}>
+          <Box bg='primary'>Box</Box>
+          <Box bg='muted'>Box</Box>
+          <Box bg='primary'>Box</Box>
+          <Box bg='muted'>Box</Box>
+        </Grid>
+    </Story>
+</Preview >
+
+## Props
+
+Please refer to the documentation for [Theme UI Grid](https://theme-ui.com/components/grid).
