@@ -1,5 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Components | Badge Danger 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: .75rem;
+  font-weight: 700;
+  white-space: nowrap;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  color: var(--theme-ui-colors-background,#fff);
+  background-color: var(--theme-ui-colors-red-6,#c53030);
+}
+
+<div
+  className="emotion-1"
+>
+  <div
+    className="emotion-0"
+  >
+    Badge
+  </div>
+</div>
+`;
+
 exports[`Storyshots Components | Badge Default 1`] = `
 .emotion-1 {
   box-sizing: border-box;
@@ -22,11 +64,13 @@ exports[`Storyshots Components | Badge Default 1`] = `
   border-radius: 8px;
   color: white;
   background-color: var(--theme-ui-colors-primary,#13AFE5);
-  color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
   padding-left: 8px;
   padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   border-radius: 8px;
+  color: var(--theme-ui-colors-background,#fff);
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
 }
 
 <div
@@ -62,12 +106,14 @@ exports[`Storyshots Components | Badge Outline 1`] = `
   border-radius: 8px;
   color: white;
   background-color: var(--theme-ui-colors-primary,#13AFE5);
-  color: var(--theme-ui-colors-primary,#13AFE5);
-  background-color: var(--theme-ui-colors-transparent,transparent);
-  border-radius: 8px;
-  border: 1px solid;
   padding-left: 8px;
   padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  border: 1px solid;
   border-color: var(--theme-ui-colors-primary,#13AFE5);
 }
 
@@ -813,7 +859,1544 @@ exports[`Storyshots Components | Card Primary 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components | Colors Palette 1`] = `
+exports[`Storyshots Components | Dropdown Menu Default 1`] = `
+.emotion-7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  border: 0;
+  border-radius: 32px;
+  border-radius: 32px;
+  border-color: var(--theme-ui-colors-transparent,transparent);
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-letter-spacing: default;
+  -moz-letter-spacing: default;
+  -ms-letter-spacing: default;
+  letter-spacing: default;
+  line-height: inherit;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+  color: var(--theme-ui-colors-background,#fff);
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  font-size: 1rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 42px;
+}
+
+.emotion-0:hover {
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.emotion-0:active {
+  border-style: solid;
+  -webkit-transform: scale(.98);
+  -ms-transform: scale(.98);
+  transform: scale(.98);
+}
+
+.emotion-0:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: relative;
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  list-style: none;
+  background-color: var(--theme-ui-colors-background,#fff);
+  margin: auto;
+  min-width: 80px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 4px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: var(--theme-ui-colors-gray-1,#ebeeef);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.emotion-2 {
+  margin-bottom: 4px;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text,#38383e);
+}
+
+<div
+  className="emotion-7"
+>
+  <span
+    className="emotion-6"
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup={true}
+      className="emotion-0"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+      type="button"
+    >
+      Click me
+    </button>
+    <ul
+      className="emotion-5"
+      role="menu"
+    >
+      <li
+        className="emotion-2"
+      >
+        <a
+          className="emotion-1"
+          onKeyDown={[Function]}
+          role="menuitem"
+          tabIndex={-1}
+        >
+          Hello
+        </a>
+      </li>
+      <li
+        className="emotion-2"
+      >
+        <a
+          className="emotion-1"
+          onKeyDown={[Function]}
+          role="menuitem"
+          tabIndex={-1}
+        >
+          Hi
+        </a>
+      </li>
+    </ul>
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components | Dropdown Menu IconButton 1`] = `
+.emotion-7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: relative;
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  list-style: none;
+  background-color: var(--theme-ui-colors-background,#fff);
+  margin: auto;
+  min-width: 80px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 4px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: var(--theme-ui-colors-gray-1,#ebeeef);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.emotion-2 {
+  margin-bottom: 4px;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text,#38383e);
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  border: none;
+  border-radius: 32px;
+  border: 1px solid;
+  border-color: var(--theme-ui-colors-text,#38383e);
+  height: 42px;
+  width: 42px;
+  min-height: 42px;
+  min-width: 42px;
+  padding: 4px;
+}
+
+.emotion-0:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-primary,#13AFE5);
+}
+
+<div
+  className="emotion-7"
+>
+  <span
+    className="emotion-6"
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup={true}
+      className="emotion-0"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    />
+    <ul
+      className="emotion-5"
+      role="menu"
+    >
+      <li
+        className="emotion-2"
+      >
+        <a
+          className="emotion-1"
+          onKeyDown={[Function]}
+          role="menuitem"
+          tabIndex={-1}
+        >
+          Hello
+        </a>
+      </li>
+      <li
+        className="emotion-2"
+      >
+        <a
+          className="emotion-1"
+          onKeyDown={[Function]}
+          role="menuitem"
+          tabIndex={-1}
+        >
+          Hi
+        </a>
+      </li>
+    </ul>
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components | Embed Default 1`] = `
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  overflow: hidden;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border: 0;
+}
+
+<div
+  className="emotion-2"
+>
+  <div
+    className="emotion-1"
+  >
+    <iframe
+      allowFullScreen={true}
+      className="emotion-0"
+      frameBorder={0}
+      height={315}
+      src="https://www.youtube.com/watch?v=mTccP-6XcpQ"
+      width={560}
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components | IconButton Default 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  border: none;
+  border-radius: 32px;
+  border: 1px solid;
+  border-color: var(--theme-ui-colors-text,#38383e);
+  height: 42px;
+  width: 42px;
+  min-height: 42px;
+  min-width: 42px;
+  padding: 4px;
+}
+
+.emotion-0:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-primary,#13AFE5);
+}
+
+<div
+  className="emotion-1"
+>
+  <button
+    aria-label="Toggle dark mode"
+    className="emotion-0"
+    onClick={[Function]}
+  >
+    <svg
+      fill="currentcolor"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx={12}
+        cy={12}
+        fill="none"
+        r={11}
+        stroke="currentcolor"
+        strokeWidth={2}
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Components | Message Danger 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 16px;
+  padding-left: 12px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-radius: 32px;
+  background-color: highlight;
+  border-radius: 4px;
+  border-left-color: var(--theme-ui-colors-red-7,#9b2c2c);
+  background-color: var(--theme-ui-colors-red-1,#fed7d7);
+  color: var(--theme-ui-colors-red-8,#742a2a);
+}
+
+<div
+  className="emotion-1"
+>
+  <div
+    className="emotion-0"
+  >
+    This is just a message, but dangerous
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components | Message Default 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 16px;
+  padding-left: 12px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-radius: 32px;
+  background-color: highlight;
+  border-radius: 4px;
+  border-left-color: var(--theme-ui-colors-gray-7,#778d93);
+  background-color: var(--theme-ui-colors-gray-1,#ebeeef);
+  color: var(--theme-ui-colors-gray-8,#5c6f75);
+}
+
+<div
+  className="emotion-1"
+>
+  <div
+    className="emotion-0"
+  >
+    This is just a message
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components | Nav Default 1`] = `
+.emotion-7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  font-size: .875rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+  border-top: 4px solid;
+  border-color: var(--theme-ui-colors-transparent,transparent);
+  -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0.active {
+  color: var(--theme-ui-colors-primary,#13AFE5);
+}
+
+.emotion-0[aria-current="page"] {
+  border-color: var(--theme-ui-colors-primary,#13AFE5);
+}
+
+<div
+  className="emotion-7"
+>
+  <nav
+    aria-label="Main"
+    className="emotion-6"
+  >
+    <a
+      aria-current="page"
+      className="emotion-0"
+    >
+      Home
+    </a>
+    <a
+      className="emotion-0"
+    >
+      Clients
+    </a>
+    <a
+      className="emotion-0"
+    >
+      Users
+    </a>
+    <a
+      className="emotion-0"
+    >
+      Permissions
+    </a>
+    <a
+      className="emotion-0"
+    >
+      Reports
+    </a>
+    <a
+      className="emotion-0"
+    >
+      Configuration
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`Storyshots Components | Table Default 1`] = `
+.emotion-16 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-15 {
+  padding: 32px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 700;
+  text-align: left;
+  border-bottom: 1px solid;
+  border-color: var(--theme-ui-colors-gray-1,#ebeeef);
+}
+
+.emotion-2 td {
+  opacity: 1;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: inherit;
+  text-align: left;
+  opacity: 0.8;
+  height: 64px;
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+  border-bottom: 1px solid;
+  border-color: var(--theme-ui-colors-gray-0,#f8fafa);
+}
+
+.emotion-5:hover {
+  background-color: var(--theme-ui-colors-gray-0,#f8fafa);
+}
+
+<div
+  className="emotion-16"
+>
+  <table
+    className="emotion-15"
+  >
+    <thead
+      className="emotion-2"
+    >
+      <tr>
+        <td
+          className="emotion-0"
+        >
+          Name
+        </td>
+        <td
+          className="emotion-0"
+        >
+          Description
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="emotion-5"
+      >
+        <td
+          className="emotion-0"
+        >
+          Warehouse monitoring stack
+        </td>
+        <td
+          className="emotion-0"
+        >
+          Used to maintain optimal storage conditions.
+        </td>
+      </tr>
+      <tr
+        className="emotion-5"
+      >
+        <td
+          className="emotion-0"
+        >
+          Warehouse monitoring stack
+        </td>
+        <td
+          className="emotion-0"
+        >
+          Used to maintain optimal storage conditions.
+        </td>
+      </tr>
+      <tr
+        className="emotion-5"
+      >
+        <td
+          className="emotion-0"
+        >
+          Warehouse monitoring stack
+        </td>
+        <td
+          className="emotion-0"
+        >
+          Used to maintain optimal storage conditions.
+        </td>
+      </tr>
+      <tr
+        className="emotion-5"
+      >
+        <td
+          className="emotion-0"
+        >
+          Warehouse monitoring stack
+        </td>
+        <td
+          className="emotion-0"
+        >
+          Used to maintain optimal storage conditions.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Storyshots Components | Typography Body 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text,#38383e);
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  opacity: 0.8;
+}
+
+<div
+  className="emotion-1"
+>
+  <div
+    className="emotion-0"
+  >
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components | Typography Headings 1`] = `
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  color: var(--theme-ui-colors-text,#38383e);
+  font-family: inherit;
+  line-height: 1.125;
+  font-weight: 900;
+  -webkit-letter-spacing: -.02em;
+  -moz-letter-spacing: -.02em;
+  -ms-letter-spacing: -.02em;
+  letter-spacing: -.02em;
+  font-size: 3rem;
+}
+
+.emotion-1 {
+  color: var(--theme-ui-colors-text,#38383e);
+  font-family: inherit;
+  line-height: 1.125;
+  font-weight: 900;
+  -webkit-letter-spacing: -.02em;
+  -moz-letter-spacing: -.02em;
+  -ms-letter-spacing: -.02em;
+  letter-spacing: -.02em;
+  font-size: 2.5rem;
+}
+
+.emotion-2 {
+  color: var(--theme-ui-colors-text,#38383e);
+  font-family: inherit;
+  line-height: 1.125;
+  font-weight: 900;
+  -webkit-letter-spacing: -.02em;
+  -moz-letter-spacing: -.02em;
+  -ms-letter-spacing: -.02em;
+  letter-spacing: -.02em;
+  font-size: 2rem;
+}
+
+.emotion-3 {
+  color: var(--theme-ui-colors-text,#38383e);
+  font-family: inherit;
+  line-height: 1.125;
+  -webkit-letter-spacing: -.02em;
+  -moz-letter-spacing: -.02em;
+  -ms-letter-spacing: -.02em;
+  letter-spacing: -.02em;
+  font-size: 1.5rem;
+}
+
+.emotion-4 {
+  color: var(--theme-ui-colors-text,#38383e);
+  font-family: inherit;
+  line-height: 1.125;
+  -webkit-letter-spacing: -.02em;
+  -moz-letter-spacing: -.02em;
+  -ms-letter-spacing: -.02em;
+  letter-spacing: -.02em;
+  font-size: 1.25rem;
+}
+
+.emotion-5 {
+  color: var(--theme-ui-colors-text,#38383e);
+  font-family: inherit;
+  line-height: 1.125;
+  -webkit-letter-spacing: -.02em;
+  -moz-letter-spacing: -.02em;
+  -ms-letter-spacing: -.02em;
+  letter-spacing: -.02em;
+  font-size: 1rem;
+}
+
+<div
+  className="emotion-6"
+>
+  <h1
+    className="emotion-0"
+  >
+    Heading 1
+  </h1>
+  <h2
+    className="emotion-1"
+  >
+    Heading 2
+  </h2>
+  <h3
+    className="emotion-2"
+  >
+    Heading 3
+  </h3>
+  <h4
+    className="emotion-3"
+  >
+    Heading 4
+  </h4>
+  <h5
+    className="emotion-4"
+  >
+    Heading 5
+  </h5>
+  <h6
+    className="emotion-5"
+  >
+    Heading 6
+  </h6>
+</div>
+`;
+
+exports[`Storyshots Components | Typography Scale 1`] = `
+.emotion-11 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.emotion-0 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 6rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.emotion-1 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 4rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.emotion-2 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 3rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.emotion-3 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.emotion-4 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.emotion-5 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.emotion-6 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.emotion-7 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.emotion-8 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: .875rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+.emotion-9 {
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size: .75rem;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 16px;
+}
+
+<div
+  className="emotion-11"
+>
+  <div
+    className="emotion-10"
+  >
+    <div
+      className="emotion-0"
+    >
+      6rem
+    </div>
+    <div
+      className="emotion-1"
+    >
+      4rem
+    </div>
+    <div
+      className="emotion-2"
+    >
+      3rem
+    </div>
+    <div
+      className="emotion-3"
+    >
+      2.5rem
+    </div>
+    <div
+      className="emotion-4"
+    >
+      2rem
+    </div>
+    <div
+      className="emotion-5"
+    >
+      1.5rem
+    </div>
+    <div
+      className="emotion-6"
+    >
+      1.25rem
+    </div>
+    <div
+      className="emotion-7"
+    >
+      1rem
+    </div>
+    <div
+      className="emotion-8"
+    >
+      .875rem
+    </div>
+    <div
+      className="emotion-9"
+    >
+      .75rem
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Forms | Input Default 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  fontfamily: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 42px;
+  border-color: var(--theme-ui-colors-gray-3,#ccd4d7);
+  color: var(--theme-ui-colors-text,#38383e);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+}
+
+.emotion-0:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-primary,#13AFE5);
+}
+
+<div
+  className="emotion-1"
+>
+  <input
+    className="emotion-0"
+    defaultValue="Hello"
+  />
+</div>
+`;
+
+exports[`Storyshots Forms | Label Default 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .875rem;
+  font-weight: 700;
+  padding-left: 4px;
+  padding-bottom: 4px;
+}
+
+<div
+  className="emotion-1"
+>
+  <label
+    className="emotion-0"
+  >
+    Label
+  </label>
+</div>
+`;
+
+exports[`Storyshots Forms | Radio Default 1`] = `
+.emotion-10 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .875rem;
+  font-weight: 700;
+  padding-left: 4px;
+  padding-bottom: 4px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: none;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 8px;
+  border-radius: 9999px;
+  color: var(--theme-ui-colors-gray-0,#f8fafa);
+  color: var(--theme-ui-colors-gray-1,#ebeeef);
+  color: var(--theme-ui-colors-gray-2,#dce2e3);
+  color: var(--theme-ui-colors-gray-3,#ccd4d7);
+  color: var(--theme-ui-colors-gray-4,#bbc6c9);
+  color: var(--theme-ui-colors-gray-5,#a8b5ba);
+  color: var(--theme-ui-colors-gray-6,#92a3a8);
+  color: var(--theme-ui-colors-gray-7,#778d93);
+  color: var(--theme-ui-colors-gray-8,#5c6f75);
+  color: var(--theme-ui-colors-gray-9,#364145);
+}
+
+input:checked ~ .emotion-1 {
+  display: block;
+}
+
+input:checked ~ .emotion-1 {
+  color: var(--theme-ui-colors-primary,#13AFE5);
+}
+
+input:focus ~ .emotion-1 {
+  background-color: highlight;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 8px;
+  border-radius: 9999px;
+  color: var(--theme-ui-colors-gray-0,#f8fafa);
+  color: var(--theme-ui-colors-gray-1,#ebeeef);
+  color: var(--theme-ui-colors-gray-2,#dce2e3);
+  color: var(--theme-ui-colors-gray-3,#ccd4d7);
+  color: var(--theme-ui-colors-gray-4,#bbc6c9);
+  color: var(--theme-ui-colors-gray-5,#a8b5ba);
+  color: var(--theme-ui-colors-gray-6,#92a3a8);
+  color: var(--theme-ui-colors-gray-7,#778d93);
+  color: var(--theme-ui-colors-gray-8,#5c6f75);
+  color: var(--theme-ui-colors-gray-9,#364145);
+}
+
+input:checked ~ .emotion-2 {
+  display: none;
+}
+
+input:checked ~ .emotion-2 {
+  color: var(--theme-ui-colors-primary,#13AFE5);
+}
+
+input:focus ~ .emotion-2 {
+  background-color: highlight;
+}
+
+<div
+  className="emotion-10"
+>
+  <label
+    className="emotion-4"
+  >
+    <div
+      className="emotion-3"
+    >
+      <input
+        className="emotion-0"
+        defaultChecked={true}
+        name="dark-mode"
+        type="radio"
+        value="true"
+      />
+      <svg
+        aria-hidden="true"
+        className="emotion-1"
+        fill="currentcolor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="emotion-2"
+        fill="currentcolor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+        />
+      </svg>
+    </div>
+    Dark Mode
+  </label>
+  <label
+    className="emotion-4"
+  >
+    <div
+      className="emotion-3"
+    >
+      <input
+        className="emotion-0"
+        name="dark-mode"
+        type="radio"
+        value="false"
+      />
+      <svg
+        aria-hidden="true"
+        className="emotion-1"
+        fill="currentcolor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="emotion-2"
+        fill="currentcolor"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+        />
+      </svg>
+    </div>
+    Light Mode
+  </label>
+</div>
+`;
+
+exports[`Storyshots Forms | Select Default 1`] = `
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .875rem;
+  font-weight: 700;
+  padding-left: 4px;
+  padding-bottom: 4px;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  fontfamily: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 42px;
+  border-color: var(--theme-ui-colors-gray-3,#ccd4d7);
+  width: 100%;
+}
+
+.emotion-1:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-primary,#13AFE5);
+}
+
+@media screen and (min-width:40em) {
+  .emotion-1 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:56em) {
+  .emotion-1 {
+    width: 25%;
+  }
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-left: -28px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  pointer-events: none;
+}
+
+<div
+  className="emotion-4"
+>
+  <label
+    className="emotion-0"
+    htmlFor="select"
+  >
+    Select
+  </label>
+  <div
+    className="emotion-3"
+  >
+    <select
+      className="emotion-1"
+      defaultValue="Hello"
+      id="select"
+    >
+      <option>
+        Hello
+      </option>
+      <option>
+        Hi
+      </option>
+      <option>
+        Awe
+      </option>
+      <option>
+        Yo
+      </option>
+    </select>
+    <svg
+      className="emotion-2"
+      fill="currentcolor"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7 10l5 5 5-5z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Forms | Textarea Default 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  fontfamily: inherit;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.emotion-0:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-primary,#13AFE5);
+}
+
+<div
+  className="emotion-1"
+>
+  <textarea
+    className="emotion-0"
+    defaultValue="Hi"
+    rows={8}
+  />
+</div>
+`;
+
+exports[`Storyshots Foundation | Colors Primary 1`] = `
 .emotion-106 {
   box-sizing: border-box;
   margin: 0;
@@ -1526,8 +3109,8 @@ exports[`Storyshots Components | Colors Palette 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components | Embed Default 1`] = `
-.emotion-2 {
+exports[`Storyshots Foundation | Spacing Default 1`] = `
+.emotion-33 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -1535,420 +3118,6 @@ exports[`Storyshots Components | Embed Default 1`] = `
 }
 
 .emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-  position: relative;
-  overflow: hidden;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  border: 0;
-}
-
-<div
-  className="emotion-2"
->
-  <div
-    className="emotion-1"
-  >
-    <iframe
-      allowFullScreen={true}
-      className="emotion-0"
-      frameBorder={0}
-      height={315}
-      src="https://www.youtube.com/watch?v=mTccP-6XcpQ"
-      width={560}
-    />
-  </div>
-</div>
-`;
-
-exports[`Storyshots Components | IconButton Default 1`] = `
-.emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 4px;
-  width: 32px;
-  height: 32px;
-  color: inherit;
-  background-color: var(--theme-ui-colors-transparent,transparent);
-  border: none;
-  border-radius: 32px;
-  border: 1px solid;
-  border-color: var(--theme-ui-colors-text,#38383e);
-  height: 42px;
-  width: 42px;
-  min-height: 42px;
-  min-width: 42px;
-  padding: 4px;
-}
-
-.emotion-0:focus {
-  outline: none;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
-}
-
-<div
-  className="emotion-1"
->
-  <button
-    aria-label="Toggle dark mode"
-    className="emotion-0"
-    onClick={[Function]}
-  >
-    <svg
-      fill="currentcolor"
-      height="24"
-      viewBox="0 0 24 24"
-      width="24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <circle
-        cx={12}
-        cy={12}
-        fill="none"
-        r={11}
-        stroke="currentcolor"
-        strokeWidth={2}
-      />
-    </svg>
-  </button>
-</div>
-`;
-
-exports[`Storyshots Components | Message Danger 1`] = `
-.emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 16px;
-  padding-left: 12px;
-  border-left-width: 4px;
-  border-left-style: solid;
-  border-left-color: var(--theme-ui-colors-primary,#13AFE5);
-  border-radius: 32px;
-  background-color: highlight;
-  border-radius: 4px;
-  border-left-color: var(--theme-ui-colors-red-7,#9b2c2c);
-  background-color: var(--theme-ui-colors-red-1,#fed7d7);
-  color: var(--theme-ui-colors-red-8,#742a2a);
-}
-
-<div
-  className="emotion-1"
->
-  <div
-    className="emotion-0"
-  >
-    This is just a message, but dangerous
-  </div>
-</div>
-`;
-
-exports[`Storyshots Components | Message Default 1`] = `
-.emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 16px;
-  padding-left: 12px;
-  border-left-width: 4px;
-  border-left-style: solid;
-  border-left-color: var(--theme-ui-colors-primary,#13AFE5);
-  border-radius: 32px;
-  background-color: highlight;
-  border-radius: 4px;
-  border-left-color: var(--theme-ui-colors-gray-7,#778d93);
-  background-color: var(--theme-ui-colors-gray-1,#ebeeef);
-  color: var(--theme-ui-colors-gray-8,#5c6f75);
-}
-
-<div
-  className="emotion-1"
->
-  <div
-    className="emotion-0"
-  >
-    This is just a message
-  </div>
-</div>
-`;
-
-exports[`Storyshots Components | Nav Default 1`] = `
-.emotion-7 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-6 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  color: inherit;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 700;
-  display: inline-block;
-  text-align: center;
-  font-size: .875rem;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
-  cursor: pointer;
-  border-top: 4px solid;
-  border-color: var(--theme-ui-colors-transparent,transparent);
-  -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-  transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-}
-
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0.active {
-  color: var(--theme-ui-colors-primary,#13AFE5);
-}
-
-.emotion-0[aria-current="page"] {
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
-}
-
-<div
-  className="emotion-7"
->
-  <nav
-    aria-label="Main"
-    className="emotion-6"
-  >
-    <a
-      aria-current="page"
-      className="emotion-0"
-    >
-      Home
-    </a>
-    <a
-      className="emotion-0"
-    >
-      Clients
-    </a>
-    <a
-      className="emotion-0"
-    >
-      Users
-    </a>
-    <a
-      className="emotion-0"
-    >
-      Permissions
-    </a>
-    <a
-      className="emotion-0"
-    >
-      Reports
-    </a>
-    <a
-      className="emotion-0"
-    >
-      Configuration
-    </a>
-  </nav>
-</div>
-`;
-
-exports[`Storyshots Components | Table Default 1`] = `
-.emotion-12 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-11 {
-  padding: 32px;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.emotion-2 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-weight: 700;
-  text-align: left;
-  border-bottom: 1px solid;
-  opacity: 1;
-  border-color: var(--theme-ui-colors-gray-1,#ebeeef);
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  font-weight: inherit;
-  text-align: left;
-  opacity: 0.8;
-  height: 64px;
-}
-
-<div
-  className="emotion-12"
->
-  <table
-    className="emotion-11"
-  >
-    <thead
-      className="emotion-2"
-    >
-      <tr>
-        <td
-          className="emotion-0"
-        >
-          Name
-        </td>
-        <td
-          className="emotion-0"
-        >
-          Description
-        </td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td
-          className="emotion-0"
-        >
-          Warehouse monitoring stack
-        </td>
-        <td
-          className="emotion-0"
-        >
-          Used to maintain optimal storage conditions.
-        </td>
-      </tr>
-      <tr>
-        <td
-          className="emotion-0"
-        >
-          Warehouse monitoring stack
-        </td>
-        <td
-          className="emotion-0"
-        >
-          Used to maintain optimal storage conditions.
-        </td>
-      </tr>
-      <tr>
-        <td
-          className="emotion-0"
-        >
-          Warehouse monitoring stack
-        </td>
-        <td
-          className="emotion-0"
-        >
-          Used to maintain optimal storage conditions.
-        </td>
-      </tr>
-      <tr>
-        <td
-          className="emotion-0"
-        >
-          Warehouse monitoring stack
-        </td>
-        <td
-          className="emotion-0"
-        >
-          Used to maintain optimal storage conditions.
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-`;
-
-exports[`Storyshots Components | Typography Body 1`] = `
-.emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-0 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -1963,779 +3132,276 @@ exports[`Storyshots Components | Typography Body 1`] = `
   opacity: 0.8;
 }
 
-<div
-  className="emotion-1"
->
-  <div
-    className="emotion-0"
-  >
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-  </div>
-</div>
-`;
-
-exports[`Storyshots Components | Typography Headings 1`] = `
-.emotion-6 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-0 {
-  color: var(--theme-ui-colors-text,#38383e);
-  font-family: inherit;
-  line-height: 1.125;
-  font-weight: 900;
-  -webkit-letter-spacing: -.02em;
-  -moz-letter-spacing: -.02em;
-  -ms-letter-spacing: -.02em;
-  letter-spacing: -.02em;
-  font-size: 3rem;
-}
-
-.emotion-1 {
-  color: var(--theme-ui-colors-text,#38383e);
-  font-family: inherit;
-  line-height: 1.125;
-  font-weight: 900;
-  -webkit-letter-spacing: -.02em;
-  -moz-letter-spacing: -.02em;
-  -ms-letter-spacing: -.02em;
-  letter-spacing: -.02em;
-  font-size: 2.5rem;
-}
-
 .emotion-2 {
-  color: var(--theme-ui-colors-text,#38383e);
-  font-family: inherit;
-  line-height: 1.125;
-  font-weight: 900;
-  -webkit-letter-spacing: -.02em;
-  -moz-letter-spacing: -.02em;
-  -ms-letter-spacing: -.02em;
-  letter-spacing: -.02em;
-  font-size: 2rem;
-}
-
-.emotion-3 {
-  color: var(--theme-ui-colors-text,#38383e);
-  font-family: inherit;
-  line-height: 1.125;
-  -webkit-letter-spacing: -.02em;
-  -moz-letter-spacing: -.02em;
-  -ms-letter-spacing: -.02em;
-  letter-spacing: -.02em;
-  font-size: 1.5rem;
-}
-
-.emotion-4 {
-  color: var(--theme-ui-colors-text,#38383e);
-  font-family: inherit;
-  line-height: 1.125;
-  -webkit-letter-spacing: -.02em;
-  -moz-letter-spacing: -.02em;
-  -ms-letter-spacing: -.02em;
-  letter-spacing: -.02em;
-  font-size: 1.25rem;
-}
-
-.emotion-5 {
-  color: var(--theme-ui-colors-text,#38383e);
-  font-family: inherit;
-  line-height: 1.125;
-  -webkit-letter-spacing: -.02em;
-  -moz-letter-spacing: -.02em;
-  -ms-letter-spacing: -.02em;
-  letter-spacing: -.02em;
-  font-size: 1rem;
-}
-
-<div
-  className="emotion-6"
->
-  <h1
-    className="emotion-0"
-  >
-    Heading 1
-  </h1>
-  <h2
-    className="emotion-1"
-  >
-    Heading 2
-  </h2>
-  <h3
-    className="emotion-2"
-  >
-    Heading 3
-  </h3>
-  <h4
-    className="emotion-3"
-  >
-    Heading 4
-  </h4>
-  <h5
-    className="emotion-4"
-  >
-    Heading 5
-  </h5>
-  <h6
-    className="emotion-5"
-  >
-    Heading 6
-  </h6>
-</div>
-`;
-
-exports[`Storyshots Components | Typography Scale 1`] = `
-.emotion-11 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  padding: 24px;
-}
-
-.emotion-10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-items: baseline;
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .emotion-0 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 6rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
-}
-
-.emotion-1 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 4rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
-}
-
-.emotion-2 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 3rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 0px;
+  height: 20px;
 }
 
 .emotion-3 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 2.5rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
-}
-
-.emotion-4 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 2rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
-}
-
-.emotion-5 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 4px;
+  height: 20px;
 }
 
 .emotion-6 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 1.25rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
-}
-
-.emotion-7 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
-}
-
-.emotion-8 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: .875rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 8px;
+  height: 20px;
 }
 
 .emotion-9 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: .75rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 16px;
+  height: 20px;
+}
+
+.emotion-12 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 24px;
+  height: 20px;
+}
+
+.emotion-15 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 32px;
+  height: 20px;
+}
+
+.emotion-18 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 40px;
+  height: 20px;
+}
+
+.emotion-21 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 64px;
+  height: 20px;
+}
+
+.emotion-24 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 128px;
+  height: 20px;
+}
+
+.emotion-27 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 256px;
+  height: 20px;
+}
+
+.emotion-30 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 4px;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  width: 512px;
+  height: 20px;
 }
 
 <div
-  className="emotion-11"
+  className="emotion-33"
 >
   <div
-    className="emotion-10"
+    className="emotion-2"
   >
     <div
       className="emotion-0"
-    >
-      6rem
-    </div>
+    />
     <div
       className="emotion-1"
     >
-      4rem
+      0
+      px
     </div>
-    <div
-      className="emotion-2"
-    >
-      3rem
-    </div>
+  </div>
+  <div
+    className="emotion-2"
+  >
     <div
       className="emotion-3"
-    >
-      2.5rem
-    </div>
+    />
     <div
-      className="emotion-4"
+      className="emotion-1"
     >
-      2rem
+      4
+      px
     </div>
-    <div
-      className="emotion-5"
-    >
-      1.5rem
-    </div>
+  </div>
+  <div
+    className="emotion-2"
+  >
     <div
       className="emotion-6"
-    >
-      1.25rem
-    </div>
+    />
     <div
-      className="emotion-7"
+      className="emotion-1"
     >
-      1rem
+      8
+      px
     </div>
-    <div
-      className="emotion-8"
-    >
-      .875rem
-    </div>
+  </div>
+  <div
+    className="emotion-2"
+  >
     <div
       className="emotion-9"
-    >
-      .75rem
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Forms | Input Default 1`] = `
-.emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: block;
-  width: 100%;
-  padding: 8px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  font-size: inherit;
-  line-height: inherit;
-  border: 1px solid;
-  border-radius: 32px;
-  color: inherit;
-  background-color: var(--theme-ui-colors-transparent,transparent);
-  fontfamily: inherit;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  height: 42px;
-  color: var(--theme-ui-colors-text,#38383e);
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
-}
-
-.emotion-0:focus {
-  outline: none;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
-}
-
-<div
-  className="emotion-1"
->
-  <input
-    className="emotion-0"
-    defaultValue="Hello"
-  />
-</div>
-`;
-
-exports[`Storyshots Forms | Label Default 1`] = `
-.emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: .875rem;
-  font-weight: 700;
-  padding-left: 4px;
-  padding-bottom: 4px;
-}
-
-<div
-  className="emotion-1"
->
-  <label
-    className="emotion-0"
-  >
-    Label
-  </label>
-</div>
-`;
-
-exports[`Storyshots Forms | Radio Default 1`] = `
-.emotion-10 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-3 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-}
-
-.emotion-4 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: .875rem;
-  font-weight: 700;
-  padding-left: 4px;
-  padding-bottom: 4px;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
-.emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: none;
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  margin-right: 8px;
-  border-radius: 9999px;
-  color: var(--theme-ui-colors-gray-0,#f8fafa);
-  color: var(--theme-ui-colors-gray-1,#ebeeef);
-  color: var(--theme-ui-colors-gray-2,#dce2e3);
-  color: var(--theme-ui-colors-gray-3,#ccd4d7);
-  color: var(--theme-ui-colors-gray-4,#bbc6c9);
-  color: var(--theme-ui-colors-gray-5,#a8b5ba);
-  color: var(--theme-ui-colors-gray-6,#92a3a8);
-  color: var(--theme-ui-colors-gray-7,#778d93);
-  color: var(--theme-ui-colors-gray-8,#5c6f75);
-  color: var(--theme-ui-colors-gray-9,#364145);
-}
-
-input:checked ~ .emotion-1 {
-  display: block;
-}
-
-input:checked ~ .emotion-1 {
-  color: var(--theme-ui-colors-primary,#13AFE5);
-}
-
-input:focus ~ .emotion-1 {
-  background-color: highlight;
-}
-
-.emotion-2 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: block;
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  margin-right: 8px;
-  border-radius: 9999px;
-  color: var(--theme-ui-colors-gray-0,#f8fafa);
-  color: var(--theme-ui-colors-gray-1,#ebeeef);
-  color: var(--theme-ui-colors-gray-2,#dce2e3);
-  color: var(--theme-ui-colors-gray-3,#ccd4d7);
-  color: var(--theme-ui-colors-gray-4,#bbc6c9);
-  color: var(--theme-ui-colors-gray-5,#a8b5ba);
-  color: var(--theme-ui-colors-gray-6,#92a3a8);
-  color: var(--theme-ui-colors-gray-7,#778d93);
-  color: var(--theme-ui-colors-gray-8,#5c6f75);
-  color: var(--theme-ui-colors-gray-9,#364145);
-}
-
-input:checked ~ .emotion-2 {
-  display: none;
-}
-
-input:checked ~ .emotion-2 {
-  color: var(--theme-ui-colors-primary,#13AFE5);
-}
-
-input:focus ~ .emotion-2 {
-  background-color: highlight;
-}
-
-<div
-  className="emotion-10"
->
-  <label
-    className="emotion-4"
-  >
+    />
     <div
-      className="emotion-3"
-    >
-      <input
-        className="emotion-0"
-        defaultChecked={true}
-        name="dark-mode"
-        type="radio"
-        value="true"
-      />
-      <svg
-        aria-hidden="true"
-        className="emotion-1"
-        fill="currentcolor"
-        height="24"
-        viewBox="0 0 24 24"
-        width="24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-        />
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="emotion-2"
-        fill="currentcolor"
-        height="24"
-        viewBox="0 0 24 24"
-        width="24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-        />
-      </svg>
-    </div>
-    Dark Mode
-  </label>
-  <label
-    className="emotion-4"
-  >
-    <div
-      className="emotion-3"
-    >
-      <input
-        className="emotion-0"
-        name="dark-mode"
-        type="radio"
-        value="false"
-      />
-      <svg
-        aria-hidden="true"
-        className="emotion-1"
-        fill="currentcolor"
-        height="24"
-        viewBox="0 0 24 24"
-        width="24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-        />
-      </svg>
-      <svg
-        aria-hidden="true"
-        className="emotion-2"
-        fill="currentcolor"
-        height="24"
-        viewBox="0 0 24 24"
-        width="24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
-        />
-      </svg>
-    </div>
-    Light Mode
-  </label>
-</div>
-`;
-
-exports[`Storyshots Forms | Select Default 1`] = `
-.emotion-4 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-3 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: .875rem;
-  font-weight: 700;
-  padding-left: 4px;
-  padding-bottom: 4px;
-}
-
-.emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: block;
-  width: 100%;
-  padding: 8px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  font-size: inherit;
-  line-height: inherit;
-  border: 1px solid;
-  border-radius: 32px;
-  color: inherit;
-  background-color: var(--theme-ui-colors-transparent,transparent);
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
-  fontfamily: inherit;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  height: 42px;
-  width: 100%;
-}
-
-.emotion-1:focus {
-  outline: none;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
-}
-
-@media screen and (min-width:40em) {
-  .emotion-1 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:56em) {
-  .emotion-1 {
-    width: 25%;
-  }
-}
-
-.emotion-2 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  margin-left: -28px;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  pointer-events: none;
-}
-
-<div
-  className="emotion-4"
->
-  <label
-    className="emotion-0"
-    htmlFor="select"
-  >
-    Select
-  </label>
-  <div
-    className="emotion-3"
-  >
-    <select
       className="emotion-1"
-      defaultValue="Hello"
-      id="select"
     >
-      <option>
-        Hello
-      </option>
-      <option>
-        Hi
-      </option>
-      <option>
-        Awe
-      </option>
-      <option>
-        Yo
-      </option>
-    </select>
-    <svg
-      className="emotion-2"
-      fill="currentcolor"
-      height="24"
-      viewBox="0 0 24 24"
-      width="24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M7 10l5 5 5-5z"
-      />
-    </svg>
+      16
+      px
+    </div>
   </div>
-</div>
-`;
-
-exports[`Storyshots Forms | Textarea Default 1`] = `
-.emotion-1 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  padding: 24px;
-}
-
-.emotion-0 {
-  box-sizing: border-box;
-  margin: 0;
-  min-width: 0;
-  display: block;
-  width: 100%;
-  padding: 8px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  font-size: inherit;
-  line-height: inherit;
-  border: 1px solid;
-  border-radius: 32px;
-  color: inherit;
-  background-color: var(--theme-ui-colors-transparent,transparent);
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
-  fontfamily: inherit;
-  padding: 16px;
-  border-radius: 16px;
-}
-
-.emotion-0:focus {
-  outline: none;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
-}
-
-<div
-  className="emotion-1"
->
-  <textarea
-    className="emotion-0"
-    defaultValue="Hi"
-    rows={8}
-  />
+  <div
+    className="emotion-2"
+  >
+    <div
+      className="emotion-12"
+    />
+    <div
+      className="emotion-1"
+    >
+      24
+      px
+    </div>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <div
+      className="emotion-15"
+    />
+    <div
+      className="emotion-1"
+    >
+      32
+      px
+    </div>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <div
+      className="emotion-18"
+    />
+    <div
+      className="emotion-1"
+    >
+      40
+      px
+    </div>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <div
+      className="emotion-21"
+    />
+    <div
+      className="emotion-1"
+    >
+      64
+      px
+    </div>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <div
+      className="emotion-24"
+    />
+    <div
+      className="emotion-1"
+    >
+      128
+      px
+    </div>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <div
+      className="emotion-27"
+    />
+    <div
+      className="emotion-1"
+    >
+      256
+      px
+    </div>
+  </div>
+  <div
+    className="emotion-2"
+  >
+    <div
+      className="emotion-30"
+    />
+    <div
+      className="emotion-1"
+    >
+      512
+      px
+    </div>
+  </div>
 </div>
 `;
 
@@ -2753,7 +3419,7 @@ exports[`Storyshots Layout | Box Default 1`] = `
   min-width: 0;
   padding: 24px;
   color: white;
-  background-color: var(--theme-ui-colors-secondary,#061B2B);
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
 }
 
 <div
@@ -2762,7 +3428,7 @@ exports[`Storyshots Layout | Box Default 1`] = `
   <div
     className="emotion-0"
   >
-    test
+    Beep
   </div>
 </div>
 `;
@@ -2783,26 +3449,30 @@ exports[`Storyshots Layout | Flex Default 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .emotion-0 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  padding: 8px;
-  color: var(--theme-ui-colors-background,#fff);
+  padding: 16px;
+  color: white;
   background-color: var(--theme-ui-colors-primary,#13AFE5);
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
+  width: 50%;
 }
 
 .emotion-1 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  padding: 8px;
-  background-color: var(--theme-ui-colors-muted,#ebeeef);
+  padding: 16px;
+  color: white;
+  background-color: var(--theme-ui-colors-secondary,#061B2B);
+  width: 50%;
 }
 
 <div
@@ -2838,13 +3508,13 @@ exports[`Storyshots Layout | Grid Default 1`] = `
   margin: 0;
   min-width: 0;
   display: grid;
-  grid-gap: 8px;
-  grid-template-columns: repeat(2,1fr);
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit,minmax(128px,1fr));
 }
 
 @media screen and (min-width:56em) {
   .emotion-4 {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(192px,1fr));
   }
 }
 
@@ -2852,7 +3522,6 @@ exports[`Storyshots Layout | Grid Default 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  color: var(--theme-ui-colors-background,#fff);
   background-color: var(--theme-ui-colors-primary,#13AFE5);
 }
 
@@ -2888,6 +3557,274 @@ exports[`Storyshots Layout | Grid Default 1`] = `
       className="emotion-1"
     >
       Box
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout | Spacer Default 1`] = `
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text,#38383e);
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  opacity: 0.8;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  height: 100px;
+}
+
+<div
+  className="emotion-4"
+>
+  <div
+    className="emotion-3"
+  >
+    <div
+      className="emotion-0"
+    >
+      Some text
+    </div>
+    <div
+      className="emotion-1"
+    />
+    <div
+      className="emotion-0"
+    >
+      Some more text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout | Stack Column 1`] = `
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  height: 100px;
+  width: 100px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+}
+
+<div
+  className="emotion-5"
+>
+  <div
+    className="emotion-4"
+  >
+    <div
+      className="emotion-1"
+    >
+      <div
+        className="emotion-0"
+      />
+    </div>
+    <div
+      className="emotion-3"
+    >
+      <div
+        className="emotion-0"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout | Stack Flexible 1`] = `
+.emotion-9 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  height: 100px;
+  width: 100px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 64px;
+  display: block;
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 24px;
+  display: block;
+}
+
+<div
+  className="emotion-9"
+>
+  <div
+    className="emotion-8"
+  >
+    <div
+      className="emotion-1"
+    >
+      <div
+        className="emotion-0"
+      />
+    </div>
+    <div
+      className="emotion-3"
+    >
+      <div
+        className="emotion-0"
+      />
+    </div>
+    <div
+      className="emotion-5"
+    >
+      <div
+        className="emotion-0"
+      />
+    </div>
+    <div
+      className="emotion-1"
+    >
+      <div
+        className="emotion-0"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout | Stack Row 1`] = `
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  height: 100px;
+  width: 100px;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 24px;
+  display: inline-block;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: inline-block;
+}
+
+<div
+  className="emotion-5"
+>
+  <div
+    className="emotion-4"
+  >
+    <div
+      className="emotion-1"
+    >
+      <div
+        className="emotion-0"
+      />
+    </div>
+    <div
+      className="emotion-3"
+    >
+      <div
+        className="emotion-0"
+      />
     </div>
   </div>
 </div>
