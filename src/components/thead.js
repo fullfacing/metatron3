@@ -8,8 +8,10 @@ const THead = ({ props, children, sx }) => (
       fontWeight: 'bold',
       textAlign: 'left',
       borderBottom: '1px solid',
-      opacity: 1,
       borderColor: 'gray.1',
+      '& td': {
+        opacity: 1,
+      },
       ...sx,
     }}
     {...props}

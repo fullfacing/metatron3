@@ -1,0 +1,38 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+
+import { DropdownMenu, Button, IconButton, Link } from '../';
+
+<Meta title="Components | Dropdown Menu" component={DropdownMenu} />
+
+# Dropdown Menu
+
+Dropdown Menu is a non-modal dialog that floats around a trigger. It's used to display contextual information to the user, and should be paired with a clickable trigger element.
+
+## Default
+
+<Preview withToolbar >
+    <Story name="Default">
+      <DropdownMenu
+        trigger={props => <Button {...props}>Click me</Button>}
+        items={[
+          <Link variant="menu">Hello</Link>,
+          <Link variant="menu">Hi</Link>
+        ]}
+      />
+    </Story>
+</Preview >
+
+## Icon Button
+
+<Preview withToolbar >
+    <Story name="IconButton">
+      <DropdownMenu
+        trigger={props => <IconButton {...props}/>}
+        items={[
+          <Link variant="menu">Hello</Link>,
+          <Link variant="menu">Hi</Link>
+        ]}
+      />
+    </Story>
+</Preview >
+

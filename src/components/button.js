@@ -1,4 +1,5 @@
 /** @jsx jsx */
+import { forwardRef } from 'react';
 import { jsx, Button as ThemeUIButton } from 'theme-ui';
 
 import PropTypes from 'prop-types';
@@ -22,9 +23,10 @@ const sizes = {
   },
 };
 
-const Button = ({ variant, size, width, sx, ...props }) => (
+const Button = forwardRef(({ variant, size, width, sx, ...props }, ref) => (
   <ThemeUIButton
     type="button"
+    ref={ref}
     variant={variant}
     sx={{
       width,
@@ -33,7 +35,7 @@ const Button = ({ variant, size, width, sx, ...props }) => (
     }}
     {...props}
   />
-);
+));
 
 Button.defaultProps = {
   size: 'medium',

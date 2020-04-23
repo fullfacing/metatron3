@@ -62,6 +62,7 @@
     "@emotion/core": "^10.0.28",
     "polished": "^3.5.2",
     "prop-types": "^15.7.2",
+    "react-accessible-dropdown-menu-hook": "^2.0.1",
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {

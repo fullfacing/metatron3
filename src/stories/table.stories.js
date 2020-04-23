@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, THead, Td } from '../';
+import { Table, THead, Td, Tr } from '../';
 
 export default {
   title: 'Components | Table',
@@ -15,22 +15,22 @@ export const Default = () => (
       </tr>
     </THead>
     <tbody>
-      <tr>
+      <Tr>
         <Td>Warehouse monitoring stack</Td>
         <Td>Used to maintain optimal storage conditions.</Td>
-      </tr>
-      <tr>
+      </Tr>
+      <Tr>
         <Td>Warehouse monitoring stack</Td>
         <Td>Used to maintain optimal storage conditions.</Td>
-      </tr>
-      <tr>
+      </Tr>
+      <Tr>
         <Td>Warehouse monitoring stack</Td>
         <Td>Used to maintain optimal storage conditions.</Td>
-      </tr>
-      <tr>
+      </Tr>
+      <Tr>
         <Td>Warehouse monitoring stack</Td>
         <Td>Used to maintain optimal storage conditions.</Td>
-      </tr>
+      </Tr>
     </tbody>
   </Table>
 );

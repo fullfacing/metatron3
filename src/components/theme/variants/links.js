@@ -1,4 +1,7 @@
 export default {
+  menu: {
+    color: 'text',
+  },
   nav: {
     textAlign: 'center',
     fontSize: 1,
@@ -22,7 +25,6 @@ export default {
     mx: 1,
     borderRadius: 4,
     transition: 'all 200ms cubic-bezier(0.4, 0, 0.2, 1)',
-
     '&[aria-current="page"]': {
       boxShadow: 'default',
       color: 'white',
