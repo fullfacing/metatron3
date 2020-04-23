@@ -94,7 +94,8 @@
     "prettier": "^2.0.5",
     "react-scripts": "3.4.1",
     "react-test-renderer": "^16.13.1",
-    "sort-package-json": "^1.42.1"
+    "sort-package-json": "^1.42.1",
+    "webpack-merge": "^4.2.2"
   },
   "peerDependencies": {
     "react": "^16",
