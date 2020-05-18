@@ -6,7 +6,7 @@ import { Search } from 'react-feather';
 
 import VisuallyHidden from './visually-hidden';
 
-const Searchbox = ({ sx, id, label, onSubmit, ...props }) => {
+const Searchbox = ({ id, label, onSubmit, ...props }) => {
   return (
     <Box as="form" onSubmit={onSubmit}>
       <Box
