@@ -1,3 +1,4 @@
+import React from 'react';
 import { Flex } from 'theme-ui';
 
 import PropTypes from 'prop-types';

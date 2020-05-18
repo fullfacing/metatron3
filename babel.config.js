@@ -14,6 +14,13 @@ module.exports = (api) => {
           export: 'jsx',
         },
       ],
+      [
+        '@babel/plugin-transform-react-jsx',
+        {
+          pragma: 'jsx',
+          pragmaFrag: 'React.Fragment',
+        },
+      ],
       '@babel/plugin-proposal-object-rest-spread',
     ],
     env: {

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box } from 'theme-ui';
 
 const Td = ({ props, children, sx }) => (

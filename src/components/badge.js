@@ -1,3 +1,4 @@
+import React from 'react';
 import { Badge as ThemeUIBadge } from 'theme-ui';
 
 import PropTypes from 'prop-types';

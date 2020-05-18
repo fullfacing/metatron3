@@ -1,7 +1,8 @@
-import React from 'react';
 import { Global as EmotionGlobal } from '@emotion/core';
 
 import { normalize } from 'polished';
+
+import React from 'react';
 
 const Global = ({ styles }) => (
   <EmotionGlobal

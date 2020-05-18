@@ -7,9 +7,11 @@
   "license": "MIT",
   "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
   "main": "dist/index.js",
-  "module": "dist/index.modern.module.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "microbundle --compress --jsx jsx --format modern,cjs --external react,react-dom,react-feather",
+    "build": "babel src --ignore src/stories --out-dir dist",
     "format": "prettier --write '**/*.js'",
     "lint:package": "sort-package-json",
     "start": "start-storybook -p 9009 -s public",
@@ -57,9 +59,9 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
-    "polished": "^3.5.2",
+    "polished": "^3.6.3",
     "prop-types": "^15.7.2",
-    "react-accessible-dropdown-menu-hook": "^2.0.1",
+    "react-accessible-dropdown-menu-hook": "^2.1.0",
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {
@@ -67,6 +69,7 @@
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",
     "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",

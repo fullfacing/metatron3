@@ -1,4 +1,4 @@
-import { forwardRef } from 'react';
+import React, { forwardRef } from 'react';
 import { Button as ThemeUIButton } from 'theme-ui';
 
 import PropTypes from 'prop-types';
