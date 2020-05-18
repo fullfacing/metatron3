@@ -24,7 +24,9 @@ The design system requires the following peer dependencies to be installed:
 
 ## Install
 
-TODO
+```sh
+npm install @ifings/metatron3
+```
 
 ## Usage
 
