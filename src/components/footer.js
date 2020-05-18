@@ -12,7 +12,7 @@ const Footer = ({ ...props }) => (
     sx={{
       py: 4,
       px: 2,
-      bg: 'gray.9',
+      bg: 'secondary',
     }}
     {...props}
   >
