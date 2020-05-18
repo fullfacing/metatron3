@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Badge as ThemeUIBadge } from 'theme-ui';
+import { Badge as ThemeUIBadge } from 'theme-ui';
 
 import PropTypes from 'prop-types';
 

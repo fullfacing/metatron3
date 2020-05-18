@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Box } from 'theme-ui';
+import { Box } from 'theme-ui';
 
 const Td = ({ props, children, sx }) => (
   <Box

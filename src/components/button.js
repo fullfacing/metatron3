@@ -1,6 +1,5 @@
-/** @jsx jsx */
 import { forwardRef } from 'react';
-import { jsx, Button as ThemeUIButton } from 'theme-ui';
+import { Button as ThemeUIButton } from 'theme-ui';
 
 import PropTypes from 'prop-types';
 

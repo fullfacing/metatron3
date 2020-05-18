@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Flex as ThemeUIFlex } from 'theme-ui';
+import { Flex as ThemeUIFlex } from 'theme-ui';
 import PropTypes from 'prop-types';
 
 const Flex = ({

@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Heading as ThemeUIHeading } from 'theme-ui';
+import { Heading as ThemeUIHeading } from 'theme-ui';
 
 import PropTypes from 'prop-types';
 

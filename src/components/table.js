@@ -1,6 +1,3 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
-
 const Table = ({ props, children, sx }) => (
   <table
     sx={{

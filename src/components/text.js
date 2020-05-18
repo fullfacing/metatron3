@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Text as ThemeUIText } from 'theme-ui';
+import { Text as ThemeUIText } from 'theme-ui';
 
 import PropTypes from 'prop-types';
 

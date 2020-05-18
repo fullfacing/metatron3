@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Box, Input } from 'theme-ui';
+import { Box, Input } from 'theme-ui';
 import PropTypes from 'prop-types';
 
 import { Search } from 'react-feather';

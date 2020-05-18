@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, IconButton as ThemeUIIconButton } from 'theme-ui';
+import { IconButton as ThemeUIIconButton } from 'theme-ui';
 
 import PropTypes from 'prop-types';
 
