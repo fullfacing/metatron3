@@ -48,16 +48,17 @@ export default {
     borderColor: 'primary',
   },
   icon: {
-    border: '1px solid',
-    borderColor: 'text',
     height: '42px',
     width: '42px',
     minHeight: '42px',
     minWidth: '42px',
     padding: 1,
-    '&:focus': {
-      outline: 'none',
-      borderColor: 'primary',
+    ':active': {
+      transform: 'scale(.98)',
+    },
+    ':disabled': {
+      opacity: 0.5,
+      cursor: 'not-allowed',
     },
   },
 };
