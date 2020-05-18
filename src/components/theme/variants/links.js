@@ -12,7 +12,7 @@ export default {
     borderTop: '4px solid',
     borderColor: 'transparent',
     transition: 'all 200ms cubic-bezier(0.4, 0, 0.2, 1)',
-    '&[aria-current="page"]': {
+    '&[aria-current="page"], &[aria-current="true"]': {
       borderColor: 'primary',
     },
   },
