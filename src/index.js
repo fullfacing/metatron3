@@ -27,6 +27,7 @@ export { default as DropdownMenu } from './components/dropdown-menu';
 export { default as Text } from './components/text';
 export { default as Nav } from './components/nav';
 export { default as Logo } from './components/logo';
+export { default as SearchBox } from './components/searchbox';
 
 export { default as Footer } from './components/footer';
 export { default as Badge } from './components/badge';

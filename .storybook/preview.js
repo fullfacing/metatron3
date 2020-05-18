@@ -29,7 +29,7 @@ addParameters({
       inputBg: theme.colors.background,
       inputBorder: theme.colors.muted,
       inputTextColor: theme.colors.text,
-      inputBorderRadius: theme.radii[2],
+      inputBorderRadius: theme.radii[1],
       brandTitle: 'iFings | Metatron³',
       brandUrl: 'https://www.ifings.com/',
       brandImage:

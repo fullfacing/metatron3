@@ -27,7 +27,7 @@ export default {
 export const Default = () => (
   <div>
     <Container>
-      <Nav label="Main menu" px={7} mb={7}>
+      <Nav aria-label="Main menu" px={7} mb={7}>
         <NavLink aria-current="page">Home</NavLink>
         <NavLink>Clients</NavLink>
         <NavLink>Users</NavLink>

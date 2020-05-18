@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx, Flex as ThemeUIFlex } from 'theme-ui';
+import PropTypes from 'prop-types';
 
 const Flex = ({
   justifyContent,
@@ -24,7 +25,13 @@ Flex.defaultProps = {
   alignSelf: undefined,
   flexWrap: undefined,
   flexDirection: undefined,
-  sx: {},
+};
+
+Flex.propTypes = {
+  /**
+   * Theme UI [sx prop](https://theme-ui.com/sx-prop)
+   */
+  sx: PropTypes.object,
 };
 
 export default Flex;

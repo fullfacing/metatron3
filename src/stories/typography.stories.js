@@ -10,12 +10,14 @@ export default {
 
 export const Headings = () => (
   <>
-    <Styled.h1>Heading 1</Styled.h1>
-    <Styled.h2>Heading 2</Styled.h2>
-    <Styled.h3>Heading 3</Styled.h3>
-    <Styled.h4>Heading 4</Styled.h4>
-    <Styled.h5>Heading 5</Styled.h5>
-    <Styled.h6>Heading 6</Styled.h6>
+    <Styled.h1>Heading 1 (2.53rem)</Styled.h1>
+    <Styled.h2>Heading 2 (1.898rem)</Styled.h2>
+    <Styled.h3>Heading 3 (1.424rem)</Styled.h3>
+    <Styled.h4>Heading 4 (1.266rem)</Styled.h4>
+    <Text fontSize="3">Subhead (1.125rem)</Text>
+    <Text fontSize="2">Base (1rem)</Text>
+    <Text fontSize="1">Label (0.889rem)</Text>
+    <Text fontSize="0">Caption (0.79rem)</Text>
   </>
 );
 
@@ -31,8 +33,4 @@ export const Body = () => (
   </Text>
 );
 
-export const Scale = () => (
-  <>
-    <TypeScale />
-  </>
-);
+export const Scale = () => <TypeScale />;

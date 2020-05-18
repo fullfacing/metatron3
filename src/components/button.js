@@ -11,15 +11,15 @@ const sizes = {
     paddingX: 2,
   },
   medium: {
-    fontSize: 2,
+    fontSize: 1,
     paddingY: 2,
     paddingX: 3,
     height: '42px',
   },
   large: {
-    fontSize: 3,
+    fontSize: 2,
     paddingY: 2,
-    paddingX: 3,
+    paddingX: 4,
   },
 };
 
@@ -40,12 +40,14 @@ const Button = forwardRef(({ variant, size, width, sx, ...props }, ref) => (
 Button.defaultProps = {
   size: 'medium',
   variant: 'primary',
-  sx: {},
 };
 
 Button.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']).isRequired,
   variant: PropTypes.oneOf(['primary', 'secondary', 'outline', 'danger']).isRequired,
+  /**
+   * Theme UI [sx prop](https://theme-ui.com/sx-prop)
+   */
   sx: PropTypes.object,
 };
 

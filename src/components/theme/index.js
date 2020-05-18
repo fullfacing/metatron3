@@ -3,6 +3,7 @@ import fonts from './fonts';
 import space from './space';
 import sizes from './sizes';
 import shadows from './shadows';
+import colors from './colors';
 
 import buttons from './variants/buttons';
 import text from './variants/text';
@@ -36,48 +37,7 @@ export default {
     heading: 1.125,
   },
   radii: [0, 4, 8, 16, 32, 9999],
-  colors: {
-    text: '#38383e',
-    background: '#fff',
-    primary: '#13AFE5',
-    transparent: 'transparent',
-    secondary: '#061B2B',
-    muted: '#ebeeef',
-    gray: [
-      '#f8fafa',
-      '#ebeeef',
-      '#dce2e3',
-      '#ccd4d7',
-      '#bbc6c9',
-      '#a8b5ba',
-      '#92a3a8',
-      '#778d93',
-      '#5c6f75',
-      '#364145',
-    ],
-    orange: [
-      '#fffaf0',
-      '#feebc8',
-      '#fbd38d',
-      '#f6ad55',
-      '#ed8936',
-      '#dd6b20',
-      '#c05621',
-      '#9c4221',
-      '#7b341e',
-    ],
-    red: [
-      '#fff5f5',
-      '#fed7d7',
-      '#feb2b2',
-      '#fc8181',
-      '#f56565',
-      '#e53e3e',
-      '#c53030',
-      '#9b2c2c',
-      '#742a2a',
-    ],
-  },
+  colors,
   styles: {
     root: {
       fontFamily: 'body',

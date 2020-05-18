@@ -14,6 +14,12 @@ TODO
 
 This system is largely based on the work done by [Brent Jackson](https://github.com/jxnblk) and uses [Theme UI](https://github.com/system-ui/theme-ui) at its core.
 
+# Peer dependencies
+
+The design system requires the following peer dependencies to be installed:
+
+- [Feather icons](https://github.com/feathericons/react-feather)
+
 ## Install
 
 TODO

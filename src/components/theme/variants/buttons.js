@@ -1,8 +1,11 @@
 const defaultStyles = {
-  borderRadius: 4,
+  borderRadius: 2,
   borderColor: 'transparent',
   fontFamily: 'body',
   fontWeight: 'button',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
   cursor: `pointer`,
   letterSpacing: 'default',
   lineHeight: `inherit`,
@@ -24,18 +27,18 @@ const defaultStyles = {
 export default {
   primary: {
     ...defaultStyles,
-    color: 'background',
+    color: 'white',
     bg: 'primary',
   },
   secondary: {
     ...defaultStyles,
-    color: 'background',
-    bg: 'gray.9',
+    color: 'white',
+    bg: 'secondary',
   },
   danger: {
     ...defaultStyles,
     color: 'background',
-    bg: 'red.6',
+    bg: 'red.0',
   },
   outline: {
     ...defaultStyles,

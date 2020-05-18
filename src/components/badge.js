@@ -10,6 +10,9 @@ Badge.defaultProps = {
 };
 
 Badge.propTypes = {
+  /**
+   * Theme UI [sx prop](https://theme-ui.com/sx-prop)
+   */
   sx: PropTypes.object,
   variant: PropTypes.oneOf(['primary', 'outline', 'danger']),
 };

@@ -1,12 +1,14 @@
-export default [
-  '.75rem',
-  '.875rem',
+const fontSizes = [
+  '0.79rem',
+  '0.889rem',
   '1rem',
-  '1.25rem',
-  '1.5rem',
-  '2rem',
-  '2.5rem',
-  '3rem',
-  '4rem',
-  '6rem',
+  '1.125rem',
+  '1.266rem',
+  '1.424rem',
+  '1.898rem',
+  '2.53rem',
 ];
+
+console.log('fontSizes;', fontSizes);
+
+export default fontSizes;

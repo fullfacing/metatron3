@@ -98,7 +98,8 @@
   },
   "peerDependencies": {
     "react": "^16",
-    "react-dom": "^16"
+    "react-dom": "^16",
+    "react-feather": "^2.0.8"
   },
   "engines": {
     "node": ">=8",

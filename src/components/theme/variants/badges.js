@@ -20,6 +20,6 @@ export default {
   danger: {
     ...defaultStyles,
     color: 'background',
-    bg: 'red.6',
+    bg: 'red.0',
   },
 };
