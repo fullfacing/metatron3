@@ -1,14 +1,15 @@
+/** @jsx jsx */
 import React from 'react';
-import { Box, Input } from 'theme-ui';
+import { Box, Input, jsx } from 'theme-ui';
 import PropTypes from 'prop-types';
 
 import { Search } from 'react-feather';
 
 import VisuallyHidden from './visually-hidden';
 
-const Searchbox = ({ id, label, onSubmit, ...props }) => {
+const Searchbox = ({ sx, sxInput, id, label, onSubmit, ...props }) => {
   return (
-    <Box as="form" onSubmit={onSubmit}>
+    <Box as="form" onSubmit={onSubmit} sx={sx}>
       <Box
         role="search"
         sx={{
@@ -18,7 +19,7 @@ const Searchbox = ({ id, label, onSubmit, ...props }) => {
         <VisuallyHidden htmlFor={id} as="label">
           {label}
         </VisuallyHidden>
-        <Input id={id} pl="6" {...props} />
+        <Input id={id} pl="6" {...props} sx={sxInput} />
         <Search
           size={24}
           sx={{
@@ -40,6 +41,8 @@ Searchbox.defaultProps = {
   },
   label: 'Search',
   placeholder: 'Search...',
+  sx: {},
+  sxInput: {},
 };
 
 Searchbox.propTypes = {

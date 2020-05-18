@@ -1,5 +1,6 @@
+/** @jsx jsx */
 import React from 'react';
-import { Text as ThemeUIText } from 'theme-ui';
+import { Text as ThemeUIText, jsx } from 'theme-ui';
 
 import PropTypes from 'prop-types';
 

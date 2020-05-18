@@ -1,4 +1,6 @@
+/** @jsx jsx */
 import React from 'react';
+import { jsx } from 'theme-ui';
 import Flex from './layout/flex';
 import Text from './text';
 

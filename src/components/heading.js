@@ -1,5 +1,6 @@
+/** @jsx jsx */
 import React from 'react';
-import { Heading as ThemeUIHeading } from 'theme-ui';
+import { Heading as ThemeUIHeading, jsx } from 'theme-ui';
 
 import PropTypes from 'prop-types';
 

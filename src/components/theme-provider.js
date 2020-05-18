@@ -1,5 +1,6 @@
+/** @jsx jsx */
 import React from 'react';
-import { ThemeProvider as ThemeUIProvider } from 'theme-ui';
+import { ThemeProvider as ThemeUIProvider, jsx } from 'theme-ui';
 import theme from './theme';
 
 const ThemeProvder = ({ children, ...props }) => (

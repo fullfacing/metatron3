@@ -1,8 +1,8 @@
-import { Global as EmotionGlobal } from '@emotion/core';
-
-import { normalize } from 'polished';
-
+/** @jsx jsx */
 import React from 'react';
+import { Global as EmotionGlobal } from '@emotion/core';
+import { jsx } from 'theme-ui';
+import { normalize } from 'polished';
 
 const Global = ({ styles }) => (
   <EmotionGlobal

@@ -8,8 +8,8 @@ export default {
 
 export const Default = () => (
   <Nav label="Main">
-    <NavLink aria-current="page">Home</NavLink>
-    <NavLink>Clients</NavLink>
+    <NavLink>Home</NavLink>
+    <NavLink aria-current="page">Clients</NavLink>
     <NavLink>Users</NavLink>
     <NavLink>Permissions</NavLink>
     <NavLink>Reports</NavLink>
