@@ -11,7 +11,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "babel src -d dist --ignore '**/*.stories.js'",
     "format": "prettier --write '**/*.js'",
     "lint:package": "sort-package-json",
     "start": "start-storybook -p 9009 -s public",
@@ -53,7 +53,7 @@
       "jest-emotion"
     ],
     "transform": {
-      "^.+\\.[tj]sx?$": "babel-jest",
+      "^.+\\.js$": "babel-jest",
       "^.+\\.mdx$": "@storybook/addon-docs/jest-transform-mdx"
     }
   },

@@ -38,7 +38,6 @@ const Stack = ({ children, variant, space, ...props }) => {
 };
 
 Stack.propTypes = {
-  space: PropTypes.oneOfType([Array, Number, String]),
   variant: PropTypes.oneOf(['row', 'column']),
   /**
    * Theme UI [sx prop](https://theme-ui.com/sx-prop)

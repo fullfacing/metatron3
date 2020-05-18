@@ -9,6 +9,4 @@ const fontSizes = [
   '2.53rem',
 ];
 
-console.log('fontSizes;', fontSizes);
-
 export default fontSizes;

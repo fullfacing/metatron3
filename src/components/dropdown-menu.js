@@ -22,7 +22,7 @@ const DropdownMenu = ({ trigger, items, sx, ...props }) => {
           padding: 2,
           borderRadius: 1,
           border: '1px solid',
-          borderColor: 'gray.1',
+          borderColor: 'gray.0',
           boxShadow: 'default',
           position: 'absolute',
           zIndex: 10,
@@ -32,7 +32,9 @@ const DropdownMenu = ({ trigger, items, sx, ...props }) => {
         role="menu"
       >
         {items.map((element, index) => (
-          <li sx={{ mb: 1 }}>{React.cloneElement(element, itemProps[index])}</li>
+          <li key={`menu-item-${index}`} sx={{ mb: 1 }}>
+            {React.cloneElement(element, itemProps[index])}
+          </li>
         ))}
       </Box>
     </Box>

@@ -14,21 +14,21 @@ exports[`Storyshots Components | Badge Danger 1`] = `
   min-width: 0;
   display: inline-block;
   vertical-align: baseline;
-  font-size: .75rem;
+  font-size: 0.79rem;
   font-weight: 700;
   white-space: nowrap;
   padding-left: 4px;
   padding-right: 4px;
   border-radius: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 4px;
   padding-bottom: 4px;
   border-radius: 8px;
   color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-red-6,#c53030);
+  background-color: var(--theme-ui-colors-red-0,rgb(216,0,0));
 }
 
 <div
@@ -56,21 +56,21 @@ exports[`Storyshots Components | Badge Default 1`] = `
   min-width: 0;
   display: inline-block;
   vertical-align: baseline;
-  font-size: .75rem;
+  font-size: 0.79rem;
   font-weight: 700;
   white-space: nowrap;
   padding-left: 4px;
   padding-right: 4px;
   border-radius: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 4px;
   padding-bottom: 4px;
   border-radius: 8px;
   color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 <div
@@ -98,23 +98,23 @@ exports[`Storyshots Components | Badge Outline 1`] = `
   min-width: 0;
   display: inline-block;
   vertical-align: baseline;
-  font-size: .75rem;
+  font-size: 0.79rem;
   font-weight: 700;
   white-space: nowrap;
   padding-left: 4px;
   padding-right: 4px;
   border-radius: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 4px;
   padding-bottom: 4px;
   border-radius: 8px;
-  color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-primary,#00A7E1);
   background-color: var(--theme-ui-colors-transparent,transparent);
   border: 1px solid;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 <div
@@ -153,14 +153,26 @@ exports[`Storyshots Components | Button Danger 1`] = `
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   border: 0;
   border-radius: 32px;
-  border-radius: 32px;
+  border-radius: 8px;
   border-color: var(--theme-ui-colors-transparent,transparent);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   -webkit-letter-spacing: default;
   -moz-letter-spacing: default;
@@ -171,8 +183,8 @@ exports[`Storyshots Components | Button Danger 1`] = `
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-red-6,#c53030);
-  font-size: 1rem;
+  background-color: var(--theme-ui-colors-red-0,rgb(216,0,0));
+  font-size: 0.889rem;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -234,14 +246,26 @@ exports[`Storyshots Components | Button Outline 1`] = `
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   border: 0;
   border-radius: 32px;
-  border-radius: 32px;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-radius: 8px;
+  border-color: var(--theme-ui-colors-primary,#00A7E1);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   -webkit-letter-spacing: default;
   -moz-letter-spacing: default;
@@ -251,10 +275,10 @@ exports[`Storyshots Components | Button Outline 1`] = `
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-  color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-primary,#00A7E1);
   background-color: var(--theme-ui-colors-transparent,transparent);
   border: 1px solid;
-  font-size: 1rem;
+  font-size: 0.889rem;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -326,14 +350,26 @@ exports[`Storyshots Components | Button Primary 1`] = `
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   border: 0;
   border-radius: 32px;
-  border-radius: 32px;
+  border-radius: 8px;
   border-color: var(--theme-ui-colors-transparent,transparent);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   -webkit-letter-spacing: default;
   -moz-letter-spacing: default;
@@ -343,10 +379,10 @@ exports[`Storyshots Components | Button Primary 1`] = `
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-  color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   margin-right: 8px;
-  font-size: 1rem;
+  font-size: 0.889rem;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -387,14 +423,26 @@ exports[`Storyshots Components | Button Primary 1`] = `
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   border: 0;
   border-radius: 32px;
-  border-radius: 32px;
+  border-radius: 8px;
   border-color: var(--theme-ui-colors-transparent,transparent);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   -webkit-letter-spacing: default;
   -moz-letter-spacing: default;
@@ -404,9 +452,9 @@ exports[`Storyshots Components | Button Primary 1`] = `
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-  color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
-  font-size: 1rem;
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
+  font-size: 0.889rem;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -479,14 +527,26 @@ exports[`Storyshots Components | Button Secondary 1`] = `
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   border: 0;
   border-radius: 32px;
-  border-radius: 32px;
+  border-radius: 8px;
   border-color: var(--theme-ui-colors-transparent,transparent);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   -webkit-letter-spacing: default;
   -moz-letter-spacing: default;
@@ -496,9 +556,9 @@ exports[`Storyshots Components | Button Secondary 1`] = `
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-  color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-gray-9,#364145);
-  font-size: 1rem;
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-secondary,#061B2B);
+  font-size: 0.889rem;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -560,14 +620,26 @@ exports[`Storyshots Components | Button Sizes 1`] = `
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   border: 0;
   border-radius: 32px;
-  border-radius: 32px;
+  border-radius: 8px;
   border-color: var(--theme-ui-colors-transparent,transparent);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   -webkit-letter-spacing: default;
   -moz-letter-spacing: default;
@@ -577,10 +649,10 @@ exports[`Storyshots Components | Button Sizes 1`] = `
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-  color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   margin-right: 8px;
-  font-size: 1rem;
+  font-size: 0.889rem;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -627,14 +699,26 @@ exports[`Storyshots Components | Button Sizes 1`] = `
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   border: 0;
   border-radius: 32px;
-  border-radius: 32px;
+  border-radius: 8px;
   border-color: var(--theme-ui-colors-transparent,transparent);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   -webkit-letter-spacing: default;
   -moz-letter-spacing: default;
@@ -644,10 +728,10 @@ exports[`Storyshots Components | Button Sizes 1`] = `
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-  color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   margin-right: 8px;
-  font-size: .875rem;
+  font-size: 0.889rem;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 8px;
@@ -687,14 +771,26 @@ exports[`Storyshots Components | Button Sizes 1`] = `
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   border: 0;
   border-radius: 32px;
-  border-radius: 32px;
+  border-radius: 8px;
   border-color: var(--theme-ui-colors-transparent,transparent);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   -webkit-letter-spacing: default;
   -moz-letter-spacing: default;
@@ -704,13 +800,13 @@ exports[`Storyshots Components | Button Sizes 1`] = `
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-  color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
-  font-size: 1.25rem;
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
+  font-size: 1rem;
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .emotion-2:hover {
@@ -772,7 +868,7 @@ exports[`Storyshots Components | Card Compact 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   line-height: 1.6;
   font-weight: 400;
@@ -791,9 +887,9 @@ exports[`Storyshots Components | Card Compact 1`] = `
   padding-bottom: 8px;
   padding-left: 16px;
   padding-right: 16px;
-  border-radius: 16px;
+  border-radius: 4px;
   border: 1px solid;
-  border-color: var(--theme-ui-colors-muted,#ebeeef);
+  border-color: var(--theme-ui-colors-muted,rgba(227,227,277,.3));
 }
 
 <div
@@ -824,16 +920,16 @@ exports[`Storyshots Components | Card Primary 1`] = `
   margin: 0;
   min-width: 0;
   padding: 24px;
-  border-radius: 16px;
+  border-radius: 4px;
   border: 1px solid;
-  border-color: var(--theme-ui-colors-muted,#ebeeef);
+  border-color: var(--theme-ui-colors-muted,rgba(227,227,277,.3));
 }
 
 .emotion-0 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   line-height: 1.6;
   font-weight: 400;
@@ -884,14 +980,26 @@ exports[`Storyshots Components | Dropdown Menu Default 1`] = `
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   border: 0;
   border-radius: 32px;
-  border-radius: 32px;
+  border-radius: 8px;
   border-color: var(--theme-ui-colors-transparent,transparent);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   -webkit-letter-spacing: default;
   -moz-letter-spacing: default;
@@ -901,9 +1009,9 @@ exports[`Storyshots Components | Dropdown Menu Default 1`] = `
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
-  color: var(--theme-ui-colors-background,#fff);
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
-  font-size: 1rem;
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
+  font-size: 0.889rem;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
@@ -949,7 +1057,7 @@ exports[`Storyshots Components | Dropdown Menu Default 1`] = `
   padding: 8px;
   border-radius: 4px;
   border: 1px solid;
-  border-color: var(--theme-ui-colors-gray-1,#ebeeef);
+  border-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   position: absolute;
   z-index: 10;
@@ -965,7 +1073,7 @@ exports[`Storyshots Components | Dropdown Menu Default 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
 }
 
 <div
@@ -1049,7 +1157,7 @@ exports[`Storyshots Components | Dropdown Menu IconButton 1`] = `
   padding: 8px;
   border-radius: 4px;
   border: 1px solid;
-  border-color: var(--theme-ui-colors-gray-1,#ebeeef);
+  border-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   position: absolute;
   z-index: 10;
@@ -1065,7 +1173,7 @@ exports[`Storyshots Components | Dropdown Menu IconButton 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
 }
 
 .emotion-0 {
@@ -1095,7 +1203,7 @@ exports[`Storyshots Components | Dropdown Menu IconButton 1`] = `
   border: none;
   border-radius: 32px;
   border: 1px solid;
-  border-color: var(--theme-ui-colors-text,#38383e);
+  border-color: var(--theme-ui-colors-text,#3D3D3E);
   height: 42px;
   width: 42px;
   min-height: 42px;
@@ -1105,7 +1213,7 @@ exports[`Storyshots Components | Dropdown Menu IconButton 1`] = `
 
 .emotion-0:focus {
   outline: none;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 <div
@@ -1241,7 +1349,7 @@ exports[`Storyshots Components | IconButton Default 1`] = `
   border: none;
   border-radius: 32px;
   border: 1px solid;
-  border-color: var(--theme-ui-colors-text,#38383e);
+  border-color: var(--theme-ui-colors-text,#3D3D3E);
   height: 42px;
   width: 42px;
   min-height: 42px;
@@ -1251,7 +1359,7 @@ exports[`Storyshots Components | IconButton Default 1`] = `
 
 .emotion-0:focus {
   outline: none;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 <div
@@ -1298,13 +1406,13 @@ exports[`Storyshots Components | Message Danger 1`] = `
   padding-left: 12px;
   border-left-width: 4px;
   border-left-style: solid;
-  border-left-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-left-color: var(--theme-ui-colors-primary,#00A7E1);
   border-radius: 32px;
   background-color: highlight;
   border-radius: 4px;
-  border-left-color: var(--theme-ui-colors-red-7,#9b2c2c);
-  background-color: var(--theme-ui-colors-red-1,#fed7d7);
-  color: var(--theme-ui-colors-red-8,#742a2a);
+  border-left-color: var(--theme-ui-colors-red-0,rgb(216,0,0));
+  background-color: var(--theme-ui-colors-red-4,rgba(216,0,0,.1));
+  color: var(--theme-ui-colors-red-0,rgb(216,0,0));
 }
 
 <div
@@ -1334,13 +1442,13 @@ exports[`Storyshots Components | Message Default 1`] = `
   padding-left: 12px;
   border-left-width: 4px;
   border-left-style: solid;
-  border-left-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-left-color: var(--theme-ui-colors-primary,#00A7E1);
   border-radius: 32px;
   background-color: highlight;
   border-radius: 4px;
-  border-left-color: var(--theme-ui-colors-gray-7,#778d93);
-  background-color: var(--theme-ui-colors-gray-1,#ebeeef);
-  color: var(--theme-ui-colors-gray-8,#5c6f75);
+  border-left-color: var(--theme-ui-colors-gray-9,rgba(132,132,134,1));
+  background-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  color: var(--theme-ui-colors-gray-9,rgba(132,132,134,1));
 }
 
 <div
@@ -1350,6 +1458,78 @@ exports[`Storyshots Components | Message Default 1`] = `
     className="emotion-0"
   >
     This is just a message
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components | Message Success 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 16px;
+  padding-left: 12px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: var(--theme-ui-colors-primary,#00A7E1);
+  border-radius: 32px;
+  background-color: highlight;
+  border-radius: 4px;
+  border-left-color: var(--theme-ui-colors-green-0,rgb(83,184,19));
+  background-color: var(--theme-ui-colors-green-4,rgba(83,184,19,.1));
+  color: var(--theme-ui-colors-green-0,rgb(83,184,19));
+}
+
+<div
+  className="emotion-1"
+>
+  <div
+    className="emotion-0"
+  >
+    This is just a message, but only when you do something right
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components | Message Warning 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 16px;
+  padding-left: 12px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: var(--theme-ui-colors-primary,#00A7E1);
+  border-radius: 32px;
+  background-color: highlight;
+  border-radius: 4px;
+  border-left-color: var(--theme-ui-colors-orange-0,rgb(255,122,54));
+  background-color: var(--theme-ui-colors-orange-4,rgba(255,122,54,.1));
+  color: var(--theme-ui-colors-orange-0,rgb(255,122,54));
+}
+
+<div
+  className="emotion-1"
+>
+  <div
+    className="emotion-0"
+  >
+    This is just a message, but only a warning
   </div>
 </div>
 `;
@@ -1393,7 +1573,7 @@ exports[`Storyshots Components | Nav Default 1`] = `
   font-weight: 700;
   display: inline-block;
   text-align: center;
-  font-size: .875rem;
+  font-size: 0.889rem;
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 8px;
@@ -1410,11 +1590,11 @@ exports[`Storyshots Components | Nav Default 1`] = `
 .emotion-0:hover,
 .emotion-0:focus,
 .emotion-0.active {
-  color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 .emotion-0[aria-current="page"] {
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 <div
@@ -1480,7 +1660,7 @@ exports[`Storyshots Components | Table Default 1`] = `
   font-weight: 700;
   text-align: left;
   border-bottom: 1px solid;
-  border-color: var(--theme-ui-colors-gray-1,#ebeeef);
+  border-color: var(--theme-ui-colors-gray-1,rgba(227,227,227,.8));
 }
 
 .emotion-2 td {
@@ -1504,11 +1684,11 @@ exports[`Storyshots Components | Table Default 1`] = `
   -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   transition: all 200ms cubic-bezier(0.4,0,0.2,1);
   border-bottom: 1px solid;
-  border-color: var(--theme-ui-colors-gray-0,#f8fafa);
+  border-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
 }
 
 .emotion-5:hover {
-  background-color: var(--theme-ui-colors-gray-0,#f8fafa);
+  background-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
 }
 
 <div
@@ -1595,6 +1775,909 @@ exports[`Storyshots Components | Table Default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Components | Test Default 1`] = `
+.emotion-57 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-14 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  border: none;
+  border-radius: 32px;
+  border: 1px solid;
+  border-color: var(--theme-ui-colors-text,#3D3D3E);
+  height: 42px;
+  width: 42px;
+  min-height: 42px;
+  min-width: 42px;
+  padding: 4px;
+}
+
+.emotion-14:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-primary,#00A7E1);
+}
+
+.emotion-31 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.889rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+  border-top: 4px solid;
+  border-color: var(--theme-ui-colors-transparent,transparent);
+  -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0.active {
+  color: var(--theme-ui-colors-primary,#00A7E1);
+}
+
+.emotion-0[aria-current="page"] {
+  border-color: var(--theme-ui-colors-primary,#00A7E1);
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-10 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-52 {
+  padding: 32px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.emotion-35 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 700;
+  text-align: left;
+  border-bottom: 1px solid;
+  border-color: var(--theme-ui-colors-gray-1,rgba(227,227,227,.8));
+}
+
+.emotion-35 td {
+  opacity: 1;
+}
+
+.emotion-33 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: inherit;
+  text-align: left;
+  opacity: 0.8;
+  height: 64px;
+}
+
+.emotion-54 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: container;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 96%;
+}
+
+@media screen and (min-width:40em) {
+  .emotion-54 {
+    max-width: 93%;
+  }
+}
+
+@media screen and (min-width:56em) {
+  .emotion-54 {
+    max-width: 90%;
+  }
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding-left: 64px;
+  padding-right: 64px;
+  margin-bottom: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-16 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 8px;
+  margin-bottom: -4px;
+}
+
+.emotion-9 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-family: inherit;
+  font-weight: 900;
+  line-height: 1.125;
+  color: var(--theme-ui-colors-text,#3D3D3E);
+  font-family: inherit;
+  line-height: 1.125;
+  font-weight: 900;
+  -webkit-letter-spacing: -.02em;
+  -moz-letter-spacing: -.02em;
+  -ms-letter-spacing: -.02em;
+  letter-spacing: -.02em;
+  color: var(--theme-ui-colors-secondary,#061B2B);
+  font-size: 1.424rem;
+}
+
+.emotion-11 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  fontfamily: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 48px;
+  border-radius: 8px;
+  border-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  background-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  color: var(--theme-ui-colors-text,#3D3D3E);
+  margin-right: 8px;
+}
+
+.emotion-11:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-gray-2,rgba(227,227,227,1));
+}
+
+.emotion-12 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  border: none;
+  border-radius: 32px;
+  border: 1px solid;
+  border-color: var(--theme-ui-colors-text,#3D3D3E);
+  height: 42px;
+  width: 42px;
+  min-height: 42px;
+  min-width: 42px;
+  padding: 4px;
+  margin-right: 8px;
+}
+
+.emotion-12:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-primary,#00A7E1);
+}
+
+.emotion-17 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 32px;
+  -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.emotion-17:hover,
+.emotion-17:focus,
+.emotion-17.active {
+  color: var(--theme-ui-colors-primary,#00A7E1);
+}
+
+@media screen and (min-width:40em) {
+  .emotion-17 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (min-width:56em) {
+  .emotion-17 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.emotion-17[aria-current="page"] {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
+}
+
+.emotion-17[aria-current="page"]:hover {
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.emotion-23 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  color: var(--theme-ui-colors-gray-1,rgba(227,227,227,.8));
+  color: var(--theme-ui-colors-gray-2,rgba(227,227,227,1));
+  color: var(--theme-ui-colors-gray-3,rgba(132,132,134,.3));
+  color: var(--theme-ui-colors-gray-4,rgba(61,61,62,.3));
+  color: var(--theme-ui-colors-gray-5,rgba(0,0,0,.3));
+  color: var(--theme-ui-colors-gray-6,rgba(160,160,164,.8));
+  color: var(--theme-ui-colors-gray-7,rgba(160,160,164,1));
+  color: var(--theme-ui-colors-gray-8,rgba(132,132,134,.8));
+  color: var(--theme-ui-colors-gray-9,rgba(132,132,134,1));
+  color: var(--theme-ui-colors-gray-10,rgba(61,61,62,.8));
+  color: var(--theme-ui-colors-gray-11,rgba(61,61,62,1));
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 0;
+  border-bottom: 1px solid;
+  color: var(--theme-ui-colors-gray-1,rgba(227,227,227,.8));
+  margin-bottom: 64px;
+}
+
+.emotion-25 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  border: none;
+  border-radius: 32px;
+  border: 1px solid;
+  border-color: var(--theme-ui-colors-text,#3D3D3E);
+  height: 42px;
+  width: 42px;
+  min-height: 42px;
+  min-width: 42px;
+  padding: 4px;
+  margin-left: 8px;
+}
+
+.emotion-25:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-primary,#00A7E1);
+}
+
+.emotion-30 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
+  border: 0;
+  border-radius: 32px;
+  border-radius: 8px;
+  border-color: var(--theme-ui-colors-transparent,transparent);
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-letter-spacing: default;
+  -moz-letter-spacing: default;
+  -ms-letter-spacing: default;
+  letter-spacing: default;
+  line-height: inherit;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  -webkit-transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 200ms cubic-bezier(0.4,0,0.2,1);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
+  width: 100px;
+  font-size: 0.889rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 42px;
+}
+
+.emotion-30:hover {
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.emotion-30:active {
+  border-style: solid;
+  -webkit-transform: scale(.98);
+  -ms-transform: scale(.98);
+  transform: scale(.98);
+}
+
+.emotion-30:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.emotion-53 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 20%;
+}
+
+.emotion-56 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: var(--theme-ui-colors-gray-9,rgba(132,132,134,1));
+}
+
+.emotion-55 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text,#3D3D3E);
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  opacity: 0.8;
+  color: var(--theme-ui-colors-white,#fff);
+  font-size: 0.79rem;
+  font-weight: 700;
+}
+
+<div
+  className="emotion-57"
+>
+  <div>
+    <div
+      className="emotion-54"
+    >
+      <nav
+        aria-label="Main menu"
+        className="emotion-6"
+      >
+        <a
+          aria-current="page"
+          className="emotion-0"
+        >
+          Home
+        </a>
+        <a
+          className="emotion-0"
+        >
+          Clients
+        </a>
+        <a
+          className="emotion-0"
+        >
+          Users
+        </a>
+        <a
+          className="emotion-0"
+        >
+          Permissions
+        </a>
+        <a
+          className="emotion-0"
+        >
+          Reports
+        </a>
+        <a
+          className="emotion-0"
+        >
+          Configuration
+        </a>
+      </nav>
+      <header
+        className="emotion-16"
+      >
+        <div
+          className="emotion-10"
+        >
+          <svg
+            className="emotion-7"
+            height={44}
+            width={113}
+          >
+            <defs>
+              <path
+                d="M2.927 0h3.512v3.023H2.927z"
+                id="prefix__a"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+            >
+              <path
+                d="M.046 33.52h8.362V10.88H.046v22.64zM4.204 8.533C1.401 8.533 0 7.23 0 4.623 0 1.983 1.416.664 4.25.664c2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046z"
+                fill="#13AFE5"
+              />
+              <path
+                d="M13.074 33.52V16.954h-2.91V10.88h2.91v-.736c0-1.38.231-2.7.693-3.957.523-1.442 1.278-2.607 2.264-3.498.893-.828 1.97-1.441 3.234-1.84a11.223 11.223 0 013.372-.506c1.294 0 2.571.138 3.835.414l-.139 6.35a10.032 10.032 0 00-2.125-.23c-1.91 0-2.864.966-2.864 2.899v1.104h4.158v6.074h-4.066V33.52h-8.362zm15.8 0h8.362V10.88h-8.362v22.64zm4.158-24.987c-2.803 0-4.204-1.303-4.204-3.91 0-2.639 1.416-3.958 4.25-3.958 2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046zm7.853 10.078c0-1.38-.015-2.791-.046-4.234l-.138-3.497h7.207l.37 2.9h.138c.246-.369.539-.721.878-1.059.43-.398.908-.767 1.432-1.104 1.355-.829 2.864-1.243 4.528-1.243 5.481 0 8.223 3.267 8.223 9.801V33.52h-8.362V21.188c0-2.761-.97-4.142-2.91-4.142-.74 0-1.356.215-1.849.645-.339.338-.631.782-.877 1.334-.155.338-.232.89-.232 1.656V33.52h-8.362V18.61zm34.465-7.96h.37c2.587 0 4.496.997 5.728 2.99h.047c.061 0 .169-.766.323-2.3v-.139l.046-.046h7.161l.046.046h.046c-.123 1.627-.184 3.698-.184 6.212V30.3c0 5.03-1.109 8.497-3.327 10.4-2.125 2.085-5.467 3.129-10.025 3.129-3.296 0-6.145-.569-8.547-1.703v-.046l1.617-6.304h.046c2.187 1.104 4.405 1.656 6.653 1.656 2.587 0 4.25-1.12 4.99-3.359a7.634 7.634 0 00.184-1.657V20.497c0-1.288-.493-2.315-1.478-3.083a3.25 3.25 0 00-1.663-.46c-1.755 0-2.88.89-3.372 2.67-.216.767-.324 1.718-.324 2.852v.046c0 2.485.832 4.127 2.495 4.924.37.154.77.23 1.201.23h.093c.246 0 .523-.03.831-.092v5.292c-.862.49-1.987.736-3.373.736h-.323c-3.389 0-6.052-1.533-7.993-4.601a12.702 12.702 0 01-1.524-6.075v-.552c0-3.62 1.231-6.656 3.696-9.11 2.002-1.75 4.188-2.624 6.56-2.624"
+                fill="#061B2B"
+              />
+              <path
+                d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+              />
+              <path
+                d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+                fill="#061B2B"
+              />
+              <g
+                transform="translate(105.79 5.29)"
+              >
+                <path
+                  d="M1.425 3.023h-.51v-2.6H0V0h2.341v.424h-.916z"
+                  fill="#061B2B"
+                />
+                <mask
+                  fill="#fff"
+                  id="prefix__b"
+                >
+                  <use
+                    xlinkHref="#prefix__a"
+                  />
+                </mask>
+                <path
+                  d="M4.401 3.023L3.411.498h-.018c.027.375.04.727.04 1.055v1.47h-.506V0h.786l.948 2.405h.014L5.65 0h.789v3.023h-.537V1.528A16.971 16.971 0 015.937.502h-.019l-1.024 2.52H4.4z"
+                  fill="#061B2B"
+                  mask="url(#prefix__b)"
+                />
+                <path
+                  d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+                  fill="#656565"
+                  mask="url(#prefix__b)"
+                />
+                <path
+                  d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+                  fill="#061B2B"
+                  mask="url(#prefix__b)"
+                />
+              </g>
+            </g>
+          </svg>
+          <h1
+            className="emotion-9"
+          >
+            <div
+              className="emotion-8"
+            >
+              Ifings 
+            </div>
+            <span
+              aria-hidden="true"
+            >
+              |
+            </span>
+             Configurator
+          </h1>
+        </div>
+        <div
+          className="emotion-10"
+        >
+          <input
+            aria-label="Search"
+            className="emotion-11"
+            placeholder="Search"
+            type="search"
+          />
+          <button
+            aria-label="Settings"
+            className="emotion-12"
+          />
+          <button
+            aria-label="Notifications"
+            className="emotion-12"
+          />
+          <button
+            aria-label="Profile"
+            className="emotion-14"
+          />
+        </div>
+      </header>
+      <nav
+        aria-label="Sub Sections"
+        className="emotion-6"
+      >
+        <a
+          aria-current="page"
+          className="emotion-17"
+        >
+          Stacks
+        </a>
+        <a
+          className="emotion-17"
+        >
+          Modules
+        </a>
+        <a
+          className="emotion-17"
+        >
+          Components
+        </a>
+        <a
+          className="emotion-17"
+        >
+          Observed property
+        </a>
+        <a
+          className="emotion-17"
+        >
+          Production
+        </a>
+      </nav>
+      <hr
+        className="emotion-23"
+      />
+      <main>
+        <div
+          className="emotion-16"
+        >
+          <div
+            className="emotion-10"
+          >
+            <input
+              aria-label="Search table"
+              className="emotion-11"
+              placeholder="Search"
+              type="search"
+            />
+            <button
+              aria-label="Settings"
+              className="emotion-25"
+            />
+            <button
+              aria-label="Notifications"
+              className="emotion-25"
+            />
+          </div>
+          <div
+            className="emotion-31"
+          >
+            <button
+              aria-label="Settings"
+              className="emotion-12"
+            />
+            <button
+              aria-label="Notifications"
+              className="emotion-12"
+            />
+            <a
+              className="emotion-30"
+              type="button"
+            >
+              Create
+            </a>
+          </div>
+        </div>
+        <div
+          className="emotion-53"
+        >
+          <table
+            className="emotion-52"
+          >
+            <thead
+              className="emotion-35"
+            >
+              <tr>
+                <td
+                  className="emotion-33"
+                >
+                  Name
+                </td>
+                <td
+                  className="emotion-33"
+                >
+                  Description
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="emotion-33"
+                >
+                  Warehouse monitoring stack
+                </td>
+                <td
+                  className="emotion-33"
+                >
+                  Used to maintain optimal storage conditions.
+                </td>
+                <td
+                  className="emotion-33"
+                >
+                  <button
+                    className="emotion-14"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="emotion-33"
+                >
+                  Warehouse monitoring stack
+                </td>
+                <td
+                  className="emotion-33"
+                >
+                  Used to maintain optimal storage conditions.
+                </td>
+                <td
+                  className="emotion-33"
+                >
+                  <button
+                    className="emotion-14"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="emotion-33"
+                >
+                  Warehouse monitoring stack
+                </td>
+                <td
+                  className="emotion-33"
+                >
+                  Used to maintain optimal storage conditions.
+                </td>
+                <td
+                  className="emotion-33"
+                >
+                  <button
+                    className="emotion-14"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="emotion-33"
+                >
+                  Warehouse monitoring stack
+                </td>
+                <td
+                  className="emotion-33"
+                >
+                  Used to maintain optimal storage conditions.
+                </td>
+                <td
+                  className="emotion-33"
+                >
+                  <button
+                    className="emotion-14"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+    <footer
+      className="emotion-56"
+    >
+      <small
+        className="emotion-55"
+      >
+        2020 iFings (Pty) Ltd. All rights reserved.
+      </small>
+    </footer>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Components | Typography Body 1`] = `
 .emotion-1 {
   box-sizing: border-box;
@@ -1607,7 +2690,7 @@ exports[`Storyshots Components | Typography Body 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   line-height: 1.6;
   font-weight: 400;
@@ -1630,7 +2713,7 @@ exports[`Storyshots Components | Typography Body 1`] = `
 `;
 
 exports[`Storyshots Components | Typography Headings 1`] = `
-.emotion-6 {
+.emotion-8 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -1638,7 +2721,7 @@ exports[`Storyshots Components | Typography Headings 1`] = `
 }
 
 .emotion-0 {
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
   font-family: inherit;
   line-height: 1.125;
   font-weight: 900;
@@ -1646,11 +2729,11 @@ exports[`Storyshots Components | Typography Headings 1`] = `
   -moz-letter-spacing: -.02em;
   -ms-letter-spacing: -.02em;
   letter-spacing: -.02em;
-  font-size: 3rem;
+  font-size: 2.53rem;
 }
 
 .emotion-1 {
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
   font-family: inherit;
   line-height: 1.125;
   font-weight: 900;
@@ -1658,11 +2741,11 @@ exports[`Storyshots Components | Typography Headings 1`] = `
   -moz-letter-spacing: -.02em;
   -ms-letter-spacing: -.02em;
   letter-spacing: -.02em;
-  font-size: 2.5rem;
+  font-size: 1.898rem;
 }
 
 .emotion-2 {
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
   font-family: inherit;
   line-height: 1.125;
   font-weight: 900;
@@ -1670,87 +2753,139 @@ exports[`Storyshots Components | Typography Headings 1`] = `
   -moz-letter-spacing: -.02em;
   -ms-letter-spacing: -.02em;
   letter-spacing: -.02em;
-  font-size: 2rem;
+  font-size: 1.424rem;
 }
 
 .emotion-3 {
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
   font-family: inherit;
   line-height: 1.125;
   -webkit-letter-spacing: -.02em;
   -moz-letter-spacing: -.02em;
   -ms-letter-spacing: -.02em;
   letter-spacing: -.02em;
-  font-size: 1.5rem;
+  font-size: 1.266rem;
 }
 
 .emotion-4 {
-  color: var(--theme-ui-colors-text,#38383e);
-  font-family: inherit;
-  line-height: 1.125;
-  -webkit-letter-spacing: -.02em;
-  -moz-letter-spacing: -.02em;
-  -ms-letter-spacing: -.02em;
-  letter-spacing: -.02em;
-  font-size: 1.25rem;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text,#3D3D3E);
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  opacity: 0.8;
+  font-size: 1.125rem;
 }
 
 .emotion-5 {
-  color: var(--theme-ui-colors-text,#38383e);
-  font-family: inherit;
-  line-height: 1.125;
-  -webkit-letter-spacing: -.02em;
-  -moz-letter-spacing: -.02em;
-  -ms-letter-spacing: -.02em;
-  letter-spacing: -.02em;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text,#3D3D3E);
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  opacity: 0.8;
   font-size: 1rem;
 }
 
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text,#3D3D3E);
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  opacity: 0.8;
+  font-size: 0.889rem;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text,#3D3D3E);
+  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  opacity: 0.8;
+  font-size: 0.79rem;
+}
+
 <div
-  className="emotion-6"
+  className="emotion-8"
 >
   <h1
     className="emotion-0"
   >
-    Heading 1
+    Heading 1 (2.53rem)
   </h1>
   <h2
     className="emotion-1"
   >
-    Heading 2
+    Heading 2 (1.898rem)
   </h2>
   <h3
     className="emotion-2"
   >
-    Heading 3
+    Heading 3 (1.424rem)
   </h3>
   <h4
     className="emotion-3"
   >
-    Heading 4
+    Heading 4 (1.266rem)
   </h4>
-  <h5
+  <div
     className="emotion-4"
   >
-    Heading 5
-  </h5>
-  <h6
+    Subhead (1.125rem)
+  </div>
+  <div
     className="emotion-5"
   >
-    Heading 6
-  </h6>
+    Base (1rem)
+  </div>
+  <div
+    className="emotion-6"
+  >
+    Label (0.889rem)
+  </div>
+  <div
+    className="emotion-7"
+  >
+    Caption (0.79rem)
+  </div>
 </div>
 `;
 
 exports[`Storyshots Components | Typography Scale 1`] = `
-.emotion-11 {
+.emotion-9 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
   padding: 24px;
 }
 
-.emotion-10 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1766,7 +2901,7 @@ exports[`Storyshots Components | Typography Scale 1`] = `
 
 .emotion-0 {
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 6rem;
+  font-size: 2.53rem;
   line-height: 1.6;
   font-weight: 400;
   overflow: hidden;
@@ -1777,7 +2912,7 @@ exports[`Storyshots Components | Typography Scale 1`] = `
 
 .emotion-1 {
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 4rem;
+  font-size: 1.898rem;
   line-height: 1.6;
   font-weight: 400;
   overflow: hidden;
@@ -1788,7 +2923,7 @@ exports[`Storyshots Components | Typography Scale 1`] = `
 
 .emotion-2 {
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 3rem;
+  font-size: 1.424rem;
   line-height: 1.6;
   font-weight: 400;
   overflow: hidden;
@@ -1799,7 +2934,7 @@ exports[`Storyshots Components | Typography Scale 1`] = `
 
 .emotion-3 {
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.266rem;
   line-height: 1.6;
   font-weight: 400;
   overflow: hidden;
@@ -1810,7 +2945,7 @@ exports[`Storyshots Components | Typography Scale 1`] = `
 
 .emotion-4 {
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 2rem;
+  font-size: 1.125rem;
   line-height: 1.6;
   font-weight: 400;
   overflow: hidden;
@@ -1821,7 +2956,7 @@ exports[`Storyshots Components | Typography Scale 1`] = `
 
 .emotion-5 {
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.6;
   font-weight: 400;
   overflow: hidden;
@@ -1832,7 +2967,7 @@ exports[`Storyshots Components | Typography Scale 1`] = `
 
 .emotion-6 {
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 1.25rem;
+  font-size: 0.889rem;
   line-height: 1.6;
   font-weight: 400;
   overflow: hidden;
@@ -1843,29 +2978,7 @@ exports[`Storyshots Components | Typography Scale 1`] = `
 
 .emotion-7 {
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
-}
-
-.emotion-8 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: .875rem;
-  line-height: 1.6;
-  font-weight: 400;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-right: 16px;
-}
-
-.emotion-9 {
-  font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-  font-size: .75rem;
+  font-size: 0.79rem;
   line-height: 1.6;
   font-weight: 400;
   overflow: hidden;
@@ -1875,60 +2988,50 @@ exports[`Storyshots Components | Typography Scale 1`] = `
 }
 
 <div
-  className="emotion-11"
+  className="emotion-9"
 >
   <div
-    className="emotion-10"
+    className="emotion-8"
   >
     <div
       className="emotion-0"
     >
-      6rem
+      2.53rem
     </div>
     <div
       className="emotion-1"
     >
-      4rem
+      1.898rem
     </div>
     <div
       className="emotion-2"
     >
-      3rem
+      1.424rem
     </div>
     <div
       className="emotion-3"
     >
-      2.5rem
+      1.266rem
     </div>
     <div
       className="emotion-4"
     >
-      2rem
+      1.125rem
     </div>
     <div
       className="emotion-5"
     >
-      1.5rem
+      1rem
     </div>
     <div
       className="emotion-6"
     >
-      1.25rem
+      0.889rem
     </div>
     <div
       className="emotion-7"
     >
-      1rem
-    </div>
-    <div
-      className="emotion-8"
-    >
-      .875rem
-    </div>
-    <div
-      className="emotion-9"
-    >
-      .75rem
+      0.79rem
     </div>
   </div>
 </div>
@@ -1963,15 +3066,16 @@ exports[`Storyshots Forms | Input Default 1`] = `
   padding-right: 16px;
   padding-top: 4px;
   padding-bottom: 4px;
-  height: 42px;
-  border-color: var(--theme-ui-colors-gray-3,#ccd4d7);
-  color: var(--theme-ui-colors-text,#38383e);
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  height: 48px;
+  border-radius: 8px;
+  border-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  background-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  color: var(--theme-ui-colors-text,#3D3D3E);
 }
 
 .emotion-0:focus {
   outline: none;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-color: var(--theme-ui-colors-gray-2,rgba(227,227,227,1));
 }
 
 <div
@@ -2001,7 +3105,7 @@ exports[`Storyshots Forms | Label Default 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: .875rem;
+  font-size: 0.889rem;
   font-weight: 700;
   padding-left: 4px;
   padding-bottom: 4px;
@@ -2041,7 +3145,7 @@ exports[`Storyshots Forms | Radio Default 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: .875rem;
+  font-size: 0.889rem;
   font-weight: 700;
   padding-left: 4px;
   padding-bottom: 4px;
@@ -2069,16 +3173,18 @@ exports[`Storyshots Forms | Radio Default 1`] = `
   min-width: 0;
   margin-right: 8px;
   border-radius: 9999px;
-  color: var(--theme-ui-colors-gray-0,#f8fafa);
-  color: var(--theme-ui-colors-gray-1,#ebeeef);
-  color: var(--theme-ui-colors-gray-2,#dce2e3);
-  color: var(--theme-ui-colors-gray-3,#ccd4d7);
-  color: var(--theme-ui-colors-gray-4,#bbc6c9);
-  color: var(--theme-ui-colors-gray-5,#a8b5ba);
-  color: var(--theme-ui-colors-gray-6,#92a3a8);
-  color: var(--theme-ui-colors-gray-7,#778d93);
-  color: var(--theme-ui-colors-gray-8,#5c6f75);
-  color: var(--theme-ui-colors-gray-9,#364145);
+  color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  color: var(--theme-ui-colors-gray-1,rgba(227,227,227,.8));
+  color: var(--theme-ui-colors-gray-2,rgba(227,227,227,1));
+  color: var(--theme-ui-colors-gray-3,rgba(132,132,134,.3));
+  color: var(--theme-ui-colors-gray-4,rgba(61,61,62,.3));
+  color: var(--theme-ui-colors-gray-5,rgba(0,0,0,.3));
+  color: var(--theme-ui-colors-gray-6,rgba(160,160,164,.8));
+  color: var(--theme-ui-colors-gray-7,rgba(160,160,164,1));
+  color: var(--theme-ui-colors-gray-8,rgba(132,132,134,.8));
+  color: var(--theme-ui-colors-gray-9,rgba(132,132,134,1));
+  color: var(--theme-ui-colors-gray-10,rgba(61,61,62,.8));
+  color: var(--theme-ui-colors-gray-11,rgba(61,61,62,1));
 }
 
 input:checked ~ .emotion-1 {
@@ -2086,7 +3192,7 @@ input:checked ~ .emotion-1 {
 }
 
 input:checked ~ .emotion-1 {
-  color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 input:focus ~ .emotion-1 {
@@ -2103,16 +3209,18 @@ input:focus ~ .emotion-1 {
   min-width: 0;
   margin-right: 8px;
   border-radius: 9999px;
-  color: var(--theme-ui-colors-gray-0,#f8fafa);
-  color: var(--theme-ui-colors-gray-1,#ebeeef);
-  color: var(--theme-ui-colors-gray-2,#dce2e3);
-  color: var(--theme-ui-colors-gray-3,#ccd4d7);
-  color: var(--theme-ui-colors-gray-4,#bbc6c9);
-  color: var(--theme-ui-colors-gray-5,#a8b5ba);
-  color: var(--theme-ui-colors-gray-6,#92a3a8);
-  color: var(--theme-ui-colors-gray-7,#778d93);
-  color: var(--theme-ui-colors-gray-8,#5c6f75);
-  color: var(--theme-ui-colors-gray-9,#364145);
+  color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  color: var(--theme-ui-colors-gray-1,rgba(227,227,227,.8));
+  color: var(--theme-ui-colors-gray-2,rgba(227,227,227,1));
+  color: var(--theme-ui-colors-gray-3,rgba(132,132,134,.3));
+  color: var(--theme-ui-colors-gray-4,rgba(61,61,62,.3));
+  color: var(--theme-ui-colors-gray-5,rgba(0,0,0,.3));
+  color: var(--theme-ui-colors-gray-6,rgba(160,160,164,.8));
+  color: var(--theme-ui-colors-gray-7,rgba(160,160,164,1));
+  color: var(--theme-ui-colors-gray-8,rgba(132,132,134,.8));
+  color: var(--theme-ui-colors-gray-9,rgba(132,132,134,1));
+  color: var(--theme-ui-colors-gray-10,rgba(61,61,62,.8));
+  color: var(--theme-ui-colors-gray-11,rgba(61,61,62,1));
 }
 
 input:checked ~ .emotion-2 {
@@ -2120,7 +3228,7 @@ input:checked ~ .emotion-2 {
 }
 
 input:checked ~ .emotion-2 {
-  color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 input:focus ~ .emotion-2 {
@@ -2216,6 +3324,140 @@ input:focus ~ .emotion-2 {
 </div>
 `;
 
+exports[`Storyshots Forms | SearchBox Default 1`] = `
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: relative;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 32px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-transparent,transparent);
+  fontfamily: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 48px;
+  border-radius: 8px;
+  border-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  background-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  color: var(--theme-ui-colors-text,#3D3D3E);
+  padding-left: 40px;
+}
+
+.emotion-1:focus {
+  outline: none;
+  border-color: var(--theme-ui-colors-gray-2,rgba(227,227,227,1));
+}
+
+.emotion-2 {
+  color: var(--theme-ui-colors-gray-8,rgba(132,132,134,.8));
+  position: absolute;
+  top: .7rem;
+  left: .6rem;
+}
+
+<div
+  className="emotion-6"
+>
+  <form
+    className="emotion-5"
+    onSubmit={[Function]}
+  >
+    <div
+      className="emotion-4"
+      role="search"
+    >
+      <label
+        className="emotion-0"
+        htmlFor="search"
+      >
+        Search
+      </label>
+      <input
+        className="emotion-1"
+        id="search"
+        placeholder="Search..."
+      />
+      <svg
+        className="emotion-2"
+        fill="none"
+        height={24}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        viewBox="0 0 24 24"
+        width={24}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+      <button
+        className="emotion-0"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
 exports[`Storyshots Forms | Select Default 1`] = `
 .emotion-4 {
   box-sizing: border-box;
@@ -2243,7 +3485,7 @@ exports[`Storyshots Forms | Select Default 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: .875rem;
+  font-size: 0.889rem;
   font-weight: 700;
   padding-left: 4px;
   padding-bottom: 4px;
@@ -2271,14 +3513,16 @@ exports[`Storyshots Forms | Select Default 1`] = `
   padding-right: 16px;
   padding-top: 4px;
   padding-bottom: 4px;
+  border-radius: 8px;
   height: 42px;
-  border-color: var(--theme-ui-colors-gray-3,#ccd4d7);
+  border-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  background-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
   width: 100%;
 }
 
 .emotion-1:focus {
   outline: none;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-color: var(--theme-ui-colors-gray-2,rgba(227,227,227,1));
 }
 
 @media screen and (min-width:40em) {
@@ -2374,15 +3618,16 @@ exports[`Storyshots Forms | Textarea Default 1`] = `
   border-radius: 32px;
   color: inherit;
   background-color: var(--theme-ui-colors-transparent,transparent);
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   fontfamily: inherit;
   padding: 16px;
-  border-radius: 16px;
+  border-radius: 8px;
+  border-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
+  background-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
 }
 
 .emotion-0:focus {
   outline: none;
-  border-color: var(--theme-ui-colors-primary,#13AFE5);
+  border-color: var(--theme-ui-colors-gray-2,rgba(227,227,227,1));
 }
 
 <div
@@ -2397,15 +3642,15 @@ exports[`Storyshots Forms | Textarea Default 1`] = `
 `;
 
 exports[`Storyshots Foundation | Colors Primary 1`] = `
-.emotion-106 {
+.emotion-136 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
   padding: 24px;
 }
 
-.emotion-48 {
-  font-size: .75rem;
+.emotion-60 {
+  font-size: 0.79rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2422,7 +3667,7 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
 .emotion-0 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-text,#38383e);
+  background-color: var(--theme-ui-colors-text,#3D3D3E);
 }
 
 .emotion-1 {
@@ -2439,7 +3684,7 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
 .emotion-6 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 .emotion-9 {
@@ -2457,179 +3702,233 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
 .emotion-15 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-muted,#ebeeef);
+  background-color: var(--theme-ui-colors-muted,rgba(227,227,277,.3));
 }
 
 .emotion-18 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-0,#f8fafa);
+  background-color: var(--theme-ui-colors-black,#000);
 }
 
 .emotion-21 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-1,#ebeeef);
+  background-color: var(--theme-ui-colors-white,#fff);
 }
 
 .emotion-24 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-2,#dce2e3);
+  background-color: var(--theme-ui-colors-gray-0,rgba(227,227,227,.5));
 }
 
 .emotion-27 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-3,#ccd4d7);
+  background-color: var(--theme-ui-colors-gray-1,rgba(227,227,227,.8));
 }
 
 .emotion-30 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-4,#bbc6c9);
+  background-color: var(--theme-ui-colors-gray-2,rgba(227,227,227,1));
 }
 
 .emotion-33 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-5,#a8b5ba);
+  background-color: var(--theme-ui-colors-gray-3,rgba(132,132,134,.3));
 }
 
 .emotion-36 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-6,#92a3a8);
+  background-color: var(--theme-ui-colors-gray-4,rgba(61,61,62,.3));
 }
 
 .emotion-39 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-7,#778d93);
+  background-color: var(--theme-ui-colors-gray-5,rgba(0,0,0,.3));
 }
 
 .emotion-42 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-8,#5c6f75);
+  background-color: var(--theme-ui-colors-gray-6,rgba(160,160,164,.8));
 }
 
 .emotion-45 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-gray-9,#364145);
+  background-color: var(--theme-ui-colors-gray-7,rgba(160,160,164,1));
 }
 
-.emotion-49 {
+.emotion-48 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-orange-0,#fffaf0);
+  background-color: var(--theme-ui-colors-gray-8,rgba(132,132,134,.8));
 }
 
-.emotion-52 {
+.emotion-51 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-orange-1,#feebc8);
+  background-color: var(--theme-ui-colors-gray-9,rgba(132,132,134,1));
 }
 
-.emotion-55 {
+.emotion-54 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-orange-2,#fbd38d);
+  background-color: var(--theme-ui-colors-gray-10,rgba(61,61,62,.8));
 }
 
-.emotion-58 {
+.emotion-57 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-orange-3,#f6ad55);
+  background-color: var(--theme-ui-colors-gray-11,rgba(61,61,62,1));
 }
 
 .emotion-61 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-orange-4,#ed8936);
+  background-color: var(--theme-ui-colors-blue-0,rgb(0,167,225));
 }
 
 .emotion-64 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-orange-5,#dd6b20);
+  background-color: var(--theme-ui-colors-blue-1,rgba(0,167,225,.8));
 }
 
 .emotion-67 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-orange-6,#c05621);
+  background-color: var(--theme-ui-colors-blue-2,rgba(0,167,225,.5));
 }
 
 .emotion-70 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-orange-7,#9c4221);
+  background-color: var(--theme-ui-colors-blue-3,rgba(0,167,225,.3));
 }
 
-.emotion-73 {
+.emotion-74 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-orange-8,#7b341e);
+  background-color: var(--theme-ui-colors-navy-0,rgb(6,27,43));
 }
 
 .emotion-77 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-red-0,#fff5f5);
+  background-color: var(--theme-ui-colors-navy-1,rgba(6,27,43,.8));
 }
 
 .emotion-80 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-red-1,#fed7d7);
+  background-color: var(--theme-ui-colors-navy-2,rgba(6,27,43,.5));
 }
 
 .emotion-83 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-red-2,#feb2b2);
+  background-color: var(--theme-ui-colors-navy-3,rgba(6,27,43,.3));
 }
 
-.emotion-86 {
+.emotion-87 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-red-3,#fc8181);
+  background-color: var(--theme-ui-colors-orange-0,rgb(255,122,54));
 }
 
-.emotion-89 {
+.emotion-90 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-red-4,#f56565);
+  background-color: var(--theme-ui-colors-orange-1,rgba(255,122,54,.8));
 }
 
-.emotion-92 {
+.emotion-93 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-red-5,#e53e3e);
+  background-color: var(--theme-ui-colors-orange-2,rgba(255,122,54,.5));
 }
 
-.emotion-95 {
+.emotion-96 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-red-6,#c53030);
+  background-color: var(--theme-ui-colors-orange-3,rgba(255,122,54,.3));
 }
 
-.emotion-98 {
+.emotion-99 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-red-7,#9b2c2c);
+  background-color: var(--theme-ui-colors-orange-4,rgba(255,122,54,.1));
 }
 
-.emotion-101 {
+.emotion-103 {
   width: 128px;
   height: 128px;
-  background-color: var(--theme-ui-colors-red-8,#742a2a);
+  background-color: var(--theme-ui-colors-red-0,rgb(216,0,0));
+}
+
+.emotion-106 {
+  width: 128px;
+  height: 128px;
+  background-color: var(--theme-ui-colors-red-1,rgba(216,0,0,.8));
+}
+
+.emotion-109 {
+  width: 128px;
+  height: 128px;
+  background-color: var(--theme-ui-colors-red-2,rgba(216,0,0,.5));
+}
+
+.emotion-112 {
+  width: 128px;
+  height: 128px;
+  background-color: var(--theme-ui-colors-red-3,rgba(216,0,0,.3));
+}
+
+.emotion-115 {
+  width: 128px;
+  height: 128px;
+  background-color: var(--theme-ui-colors-red-4,rgba(216,0,0,.1));
+}
+
+.emotion-119 {
+  width: 128px;
+  height: 128px;
+  background-color: var(--theme-ui-colors-green-0,rgb(83,184,19));
+}
+
+.emotion-122 {
+  width: 128px;
+  height: 128px;
+  background-color: var(--theme-ui-colors-green-1,rgba(83,184,19,.8));
+}
+
+.emotion-125 {
+  width: 128px;
+  height: 128px;
+  background-color: var(--theme-ui-colors-green-2,rgba(83,184,19,.5));
+}
+
+.emotion-128 {
+  width: 128px;
+  height: 128px;
+  background-color: var(--theme-ui-colors-green-3,rgba(83,184,19,.3));
+}
+
+.emotion-131 {
+  width: 128px;
+  height: 128px;
+  background-color: var(--theme-ui-colors-green-4,rgba(83,184,19,.1));
 }
 
 <div
-  className="emotion-106"
+  className="emotion-136"
 >
   <div
     style={
@@ -2641,11 +3940,11 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
   >
     <div>
       <div
-        className="emotion-48"
+        className="emotion-60"
       >
         <div
           className="emotion-2"
-          title="#38383E"
+          title="#3D3D3E"
         >
           <div
             className="emotion-0"
@@ -2671,7 +3970,7 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
         </div>
         <div
           className="emotion-2"
-          title="#13AFE5"
+          title="#00A7E1"
         >
           <div
             className="emotion-6"
@@ -2710,7 +4009,7 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
         </div>
         <div
           className="emotion-2"
-          title="#EBEEEF"
+          title="#E3E3FF"
         >
           <div
             className="emotion-15"
@@ -2721,16 +4020,42 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             muted
           </div>
         </div>
+        <div
+          className="emotion-2"
+          title="#000000"
+        >
+          <div
+            className="emotion-18"
+          />
+          <div
+            className="emotion-1"
+          >
+            black
+          </div>
+        </div>
+        <div
+          className="emotion-2"
+          title="#FFFFFF"
+        >
+          <div
+            className="emotion-21"
+          />
+          <div
+            className="emotion-1"
+          >
+            white
+          </div>
+        </div>
         <div>
           <div
-            className="emotion-48"
+            className="emotion-60"
           >
             <div
               className="emotion-2"
-              title="#F8FAFA"
+              title="#E3E3E3"
             >
               <div
-                className="emotion-18"
+                className="emotion-24"
               />
               <div
                 className="emotion-1"
@@ -2740,10 +4065,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#EBEEEF"
+              title="#E3E3E3"
             >
               <div
-                className="emotion-21"
+                className="emotion-27"
               />
               <div
                 className="emotion-1"
@@ -2753,10 +4078,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#DCE2E3"
+              title="#E3E3E3"
             >
               <div
-                className="emotion-24"
+                className="emotion-30"
               />
               <div
                 className="emotion-1"
@@ -2766,10 +4091,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#CCD4D7"
+              title="#848486"
             >
               <div
-                className="emotion-27"
+                className="emotion-33"
               />
               <div
                 className="emotion-1"
@@ -2779,10 +4104,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#BBC6C9"
+              title="#3D3D3E"
             >
               <div
-                className="emotion-30"
+                className="emotion-36"
               />
               <div
                 className="emotion-1"
@@ -2792,10 +4117,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#A8B5BA"
+              title="#000000"
             >
               <div
-                className="emotion-33"
+                className="emotion-39"
               />
               <div
                 className="emotion-1"
@@ -2805,10 +4130,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#92A3A8"
+              title="#A0A0A4"
             >
               <div
-                className="emotion-36"
+                className="emotion-42"
               />
               <div
                 className="emotion-1"
@@ -2818,10 +4143,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#778D93"
+              title="#A0A0A4"
             >
               <div
-                className="emotion-39"
+                className="emotion-45"
               />
               <div
                 className="emotion-1"
@@ -2831,10 +4156,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#5C6F75"
+              title="#848486"
             >
               <div
-                className="emotion-42"
+                className="emotion-48"
               />
               <div
                 className="emotion-1"
@@ -2844,10 +4169,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#364145"
+              title="#848486"
             >
               <div
-                className="emotion-45"
+                className="emotion-51"
               />
               <div
                 className="emotion-1"
@@ -2855,18 +4180,160 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
                 gray.9
               </div>
             </div>
+            <div
+              className="emotion-2"
+              title="#3D3D3E"
+            >
+              <div
+                className="emotion-54"
+              />
+              <div
+                className="emotion-1"
+              >
+                gray.10
+              </div>
+            </div>
+            <div
+              className="emotion-2"
+              title="#3D3D3E"
+            >
+              <div
+                className="emotion-57"
+              />
+              <div
+                className="emotion-1"
+              >
+                gray.11
+              </div>
+            </div>
           </div>
         </div>
         <div>
           <div
-            className="emotion-48"
+            className="emotion-60"
           >
             <div
               className="emotion-2"
-              title="#FFFAF0"
+              title="#00A7E1"
             >
               <div
-                className="emotion-49"
+                className="emotion-61"
+              />
+              <div
+                className="emotion-1"
+              >
+                blue.0
+              </div>
+            </div>
+            <div
+              className="emotion-2"
+              title="#00A7E1"
+            >
+              <div
+                className="emotion-64"
+              />
+              <div
+                className="emotion-1"
+              >
+                blue.1
+              </div>
+            </div>
+            <div
+              className="emotion-2"
+              title="#00A7E1"
+            >
+              <div
+                className="emotion-67"
+              />
+              <div
+                className="emotion-1"
+              >
+                blue.2
+              </div>
+            </div>
+            <div
+              className="emotion-2"
+              title="#00A7E1"
+            >
+              <div
+                className="emotion-70"
+              />
+              <div
+                className="emotion-1"
+              >
+                blue.3
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="emotion-60"
+          >
+            <div
+              className="emotion-2"
+              title="#061B2B"
+            >
+              <div
+                className="emotion-74"
+              />
+              <div
+                className="emotion-1"
+              >
+                navy.0
+              </div>
+            </div>
+            <div
+              className="emotion-2"
+              title="#061B2B"
+            >
+              <div
+                className="emotion-77"
+              />
+              <div
+                className="emotion-1"
+              >
+                navy.1
+              </div>
+            </div>
+            <div
+              className="emotion-2"
+              title="#061B2B"
+            >
+              <div
+                className="emotion-80"
+              />
+              <div
+                className="emotion-1"
+              >
+                navy.2
+              </div>
+            </div>
+            <div
+              className="emotion-2"
+              title="#061B2B"
+            >
+              <div
+                className="emotion-83"
+              />
+              <div
+                className="emotion-1"
+              >
+                navy.3
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="emotion-60"
+          >
+            <div
+              className="emotion-2"
+              title="#FF7A36"
+            >
+              <div
+                className="emotion-87"
               />
               <div
                 className="emotion-1"
@@ -2876,10 +4343,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#FEEBC8"
+              title="#FF7A36"
             >
               <div
-                className="emotion-52"
+                className="emotion-90"
               />
               <div
                 className="emotion-1"
@@ -2889,10 +4356,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#FBD38D"
+              title="#FF7A36"
             >
               <div
-                className="emotion-55"
+                className="emotion-93"
               />
               <div
                 className="emotion-1"
@@ -2902,10 +4369,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#F6AD55"
+              title="#FF7A36"
             >
               <div
-                className="emotion-58"
+                className="emotion-96"
               />
               <div
                 className="emotion-1"
@@ -2915,10 +4382,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#ED8936"
+              title="#FF7A36"
             >
               <div
-                className="emotion-61"
+                className="emotion-99"
               />
               <div
                 className="emotion-1"
@@ -2926,70 +4393,18 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
                 orange.4
               </div>
             </div>
-            <div
-              className="emotion-2"
-              title="#DD6B20"
-            >
-              <div
-                className="emotion-64"
-              />
-              <div
-                className="emotion-1"
-              >
-                orange.5
-              </div>
-            </div>
-            <div
-              className="emotion-2"
-              title="#C05621"
-            >
-              <div
-                className="emotion-67"
-              />
-              <div
-                className="emotion-1"
-              >
-                orange.6
-              </div>
-            </div>
-            <div
-              className="emotion-2"
-              title="#9C4221"
-            >
-              <div
-                className="emotion-70"
-              />
-              <div
-                className="emotion-1"
-              >
-                orange.7
-              </div>
-            </div>
-            <div
-              className="emotion-2"
-              title="#7B341E"
-            >
-              <div
-                className="emotion-73"
-              />
-              <div
-                className="emotion-1"
-              >
-                orange.8
-              </div>
-            </div>
           </div>
         </div>
         <div>
           <div
-            className="emotion-48"
+            className="emotion-60"
           >
             <div
               className="emotion-2"
-              title="#FFF5F5"
+              title="#D80000"
             >
               <div
-                className="emotion-77"
+                className="emotion-103"
               />
               <div
                 className="emotion-1"
@@ -2999,10 +4414,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#FED7D7"
+              title="#D80000"
             >
               <div
-                className="emotion-80"
+                className="emotion-106"
               />
               <div
                 className="emotion-1"
@@ -3012,10 +4427,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#FEB2B2"
+              title="#D80000"
             >
               <div
-                className="emotion-83"
+                className="emotion-109"
               />
               <div
                 className="emotion-1"
@@ -3025,10 +4440,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#FC8181"
+              title="#D80000"
             >
               <div
-                className="emotion-86"
+                className="emotion-112"
               />
               <div
                 className="emotion-1"
@@ -3038,10 +4453,10 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
             </div>
             <div
               className="emotion-2"
-              title="#F56565"
+              title="#D80000"
             >
               <div
-                className="emotion-89"
+                className="emotion-115"
               />
               <div
                 className="emotion-1"
@@ -3049,56 +4464,75 @@ exports[`Storyshots Foundation | Colors Primary 1`] = `
                 red.4
               </div>
             </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="emotion-60"
+          >
             <div
               className="emotion-2"
-              title="#E53E3E"
+              title="#53B813"
             >
               <div
-                className="emotion-92"
+                className="emotion-119"
               />
               <div
                 className="emotion-1"
               >
-                red.5
+                green.0
               </div>
             </div>
             <div
               className="emotion-2"
-              title="#C53030"
+              title="#53B813"
             >
               <div
-                className="emotion-95"
+                className="emotion-122"
               />
               <div
                 className="emotion-1"
               >
-                red.6
+                green.1
               </div>
             </div>
             <div
               className="emotion-2"
-              title="#9B2C2C"
+              title="#53B813"
             >
               <div
-                className="emotion-98"
+                className="emotion-125"
               />
               <div
                 className="emotion-1"
               >
-                red.7
+                green.2
               </div>
             </div>
             <div
               className="emotion-2"
-              title="#742A2A"
+              title="#53B813"
             >
               <div
-                className="emotion-101"
+                className="emotion-128"
               />
               <div
                 className="emotion-1"
               >
-                red.8
+                green.3
+              </div>
+            </div>
+            <div
+              className="emotion-2"
+              title="#53B813"
+            >
+              <div
+                className="emotion-131"
+              />
+              <div
+                className="emotion-1"
+              >
+                green.4
               </div>
             </div>
           </div>
@@ -3121,7 +4555,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   line-height: 1.6;
   font-weight: 400;
@@ -3151,7 +4585,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 0px;
   height: 20px;
 }
@@ -3161,7 +4595,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 4px;
   height: 20px;
 }
@@ -3171,7 +4605,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 8px;
   height: 20px;
 }
@@ -3181,7 +4615,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 16px;
   height: 20px;
 }
@@ -3191,7 +4625,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 24px;
   height: 20px;
 }
@@ -3201,7 +4635,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 32px;
   height: 20px;
 }
@@ -3211,7 +4645,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 40px;
   height: 20px;
 }
@@ -3221,7 +4655,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 64px;
   height: 20px;
 }
@@ -3231,7 +4665,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 128px;
   height: 20px;
 }
@@ -3241,7 +4675,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 256px;
   height: 20px;
 }
@@ -3251,7 +4685,7 @@ exports[`Storyshots Foundation | Spacing Default 1`] = `
   margin: 0;
   min-width: 0;
   margin-right: 4px;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 512px;
   height: 20px;
 }
@@ -3418,8 +4852,8 @@ exports[`Storyshots Layout | Box Default 1`] = `
   margin: 0;
   min-width: 0;
   padding: 24px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 <div
@@ -3460,8 +4894,8 @@ exports[`Storyshots Layout | Flex Default 1`] = `
   margin: 0;
   min-width: 0;
   padding: 16px;
-  color: white;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  color: var(--theme-ui-colors-white,#fff);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   width: 50%;
 }
 
@@ -3470,7 +4904,7 @@ exports[`Storyshots Layout | Flex Default 1`] = `
   margin: 0;
   min-width: 0;
   padding: 16px;
-  color: white;
+  color: var(--theme-ui-colors-white,#fff);
   background-color: var(--theme-ui-colors-secondary,#061B2B);
   width: 50%;
 }
@@ -3522,14 +4956,14 @@ exports[`Storyshots Layout | Grid Default 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
 }
 
 .emotion-1 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  background-color: var(--theme-ui-colors-muted,#ebeeef);
+  background-color: var(--theme-ui-colors-muted,rgba(227,227,277,.3));
 }
 
 <div
@@ -3580,7 +5014,7 @@ exports[`Storyshots Layout | Spacer Default 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  color: var(--theme-ui-colors-text,#38383e);
+  color: var(--theme-ui-colors-text,#3D3D3E);
   font-family: Muli,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
   line-height: 1.6;
   font-weight: 400;
@@ -3647,7 +5081,7 @@ exports[`Storyshots Layout | Stack Column 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   height: 100px;
   width: 100px;
 }
@@ -3709,7 +5143,7 @@ exports[`Storyshots Layout | Stack Flexible 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   height: 100px;
   width: 100px;
 }
@@ -3786,7 +5220,7 @@ exports[`Storyshots Layout | Stack Row 1`] = `
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  background-color: var(--theme-ui-colors-primary,#13AFE5);
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
   height: 100px;
   width: 100px;
 }
@@ -3831,7 +5265,7 @@ exports[`Storyshots Layout | Stack Row 1`] = `
 `;
 
 exports[`Storyshots Other | Logo Default 1`] = `
-.emotion-1 {
+.emotion-14 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -3844,71 +5278,475 @@ exports[`Storyshots Other | Logo Default 1`] = `
   min-width: 0;
 }
 
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+  background-color: var(--theme-ui-colors-black,#000);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-10 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+  background-color: var(--theme-ui-colors-primary,#00A7E1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-12 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 24px;
+  background-color: var(--theme-ui-colors-secondary,#061B2B);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 <div
-  className="emotion-1"
+  className="emotion-14"
 >
-  <svg
-    className="emotion-0"
-    height={44}
-    width={113}
+  <div
+    className="emotion-6"
   >
-    <defs>
-      <path
-        d="M2.927 0h3.512v3.023H2.927z"
-        id="prefix__a"
-      />
-    </defs>
-    <g
-      fill="none"
-      fillRule="evenodd"
+    <div
+      className="emotion-1"
     >
-      <path
-        d="M.046 33.52h8.362V10.88H.046v22.64zM4.204 8.533C1.401 8.533 0 7.23 0 4.623 0 1.983 1.416.664 4.25.664c2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046z"
-        fill="#13AFE5"
-      />
-      <path
-        d="M13.074 33.52V16.954h-2.91V10.88h2.91v-.736c0-1.38.231-2.7.693-3.957.523-1.442 1.278-2.607 2.264-3.498.893-.828 1.97-1.441 3.234-1.84a11.223 11.223 0 013.372-.506c1.294 0 2.571.138 3.835.414l-.139 6.35a10.032 10.032 0 00-2.125-.23c-1.91 0-2.864.966-2.864 2.899v1.104h4.158v6.074h-4.066V33.52h-8.362zm15.8 0h8.362V10.88h-8.362v22.64zm4.158-24.987c-2.803 0-4.204-1.303-4.204-3.91 0-2.639 1.416-3.958 4.25-3.958 2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046zm7.853 10.078c0-1.38-.015-2.791-.046-4.234l-.138-3.497h7.207l.37 2.9h.138c.246-.369.539-.721.878-1.059.43-.398.908-.767 1.432-1.104 1.355-.829 2.864-1.243 4.528-1.243 5.481 0 8.223 3.267 8.223 9.801V33.52h-8.362V21.188c0-2.761-.97-4.142-2.91-4.142-.74 0-1.356.215-1.849.645-.339.338-.631.782-.877 1.334-.155.338-.232.89-.232 1.656V33.52h-8.362V18.61zm34.465-7.96h.37c2.587 0 4.496.997 5.728 2.99h.047c.061 0 .169-.766.323-2.3v-.139l.046-.046h7.161l.046.046h.046c-.123 1.627-.184 3.698-.184 6.212V30.3c0 5.03-1.109 8.497-3.327 10.4-2.125 2.085-5.467 3.129-10.025 3.129-3.296 0-6.145-.569-8.547-1.703v-.046l1.617-6.304h.046c2.187 1.104 4.405 1.656 6.653 1.656 2.587 0 4.25-1.12 4.99-3.359a7.634 7.634 0 00.184-1.657V20.497c0-1.288-.493-2.315-1.478-3.083a3.25 3.25 0 00-1.663-.46c-1.755 0-2.88.89-3.372 2.67-.216.767-.324 1.718-.324 2.852v.046c0 2.485.832 4.127 2.495 4.924.37.154.77.23 1.201.23h.093c.246 0 .523-.03.831-.092v5.292c-.862.49-1.987.736-3.373.736h-.323c-3.389 0-6.052-1.533-7.993-4.601a12.702 12.702 0 01-1.524-6.075v-.552c0-3.62 1.231-6.656 3.696-9.11 2.002-1.75 4.188-2.624 6.56-2.624"
-        fill="#061B2B"
-      />
-      <path
-        d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
-      />
-      <path
-        d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
-        fill="#061B2B"
-      />
-      <g
-        transform="translate(105.79 5.29)"
+      <svg
+        className="emotion-0"
+        height={44}
+        width={113}
       >
-        <path
-          d="M1.425 3.023h-.51v-2.6H0V0h2.341v.424h-.916z"
-          fill="#061B2B"
-        />
-        <mask
-          fill="#fff"
-          id="prefix__b"
-        >
-          <use
-            xlinkHref="#prefix__a"
+        <defs>
+          <path
+            d="M2.927 0h3.512v3.023H2.927z"
+            id="prefix__a"
           />
-        </mask>
-        <path
-          d="M4.401 3.023L3.411.498h-.018c.027.375.04.727.04 1.055v1.47h-.506V0h.786l.948 2.405h.014L5.65 0h.789v3.023h-.537V1.528A16.971 16.971 0 015.937.502h-.019l-1.024 2.52H4.4z"
-          fill="#061B2B"
-          mask="url(#prefix__b)"
-        />
-        <path
-          d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
-          fill="#656565"
-          mask="url(#prefix__b)"
-        />
-        <path
-          d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
-          fill="#061B2B"
-          mask="url(#prefix__b)"
-        />
-      </g>
-    </g>
-  </svg>
+        </defs>
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M.046 33.52h8.362V10.88H.046v22.64zM4.204 8.533C1.401 8.533 0 7.23 0 4.623 0 1.983 1.416.664 4.25.664c2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046z"
+            fill="#13AFE5"
+          />
+          <path
+            d="M13.074 33.52V16.954h-2.91V10.88h2.91v-.736c0-1.38.231-2.7.693-3.957.523-1.442 1.278-2.607 2.264-3.498.893-.828 1.97-1.441 3.234-1.84a11.223 11.223 0 013.372-.506c1.294 0 2.571.138 3.835.414l-.139 6.35a10.032 10.032 0 00-2.125-.23c-1.91 0-2.864.966-2.864 2.899v1.104h4.158v6.074h-4.066V33.52h-8.362zm15.8 0h8.362V10.88h-8.362v22.64zm4.158-24.987c-2.803 0-4.204-1.303-4.204-3.91 0-2.639 1.416-3.958 4.25-3.958 2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046zm7.853 10.078c0-1.38-.015-2.791-.046-4.234l-.138-3.497h7.207l.37 2.9h.138c.246-.369.539-.721.878-1.059.43-.398.908-.767 1.432-1.104 1.355-.829 2.864-1.243 4.528-1.243 5.481 0 8.223 3.267 8.223 9.801V33.52h-8.362V21.188c0-2.761-.97-4.142-2.91-4.142-.74 0-1.356.215-1.849.645-.339.338-.631.782-.877 1.334-.155.338-.232.89-.232 1.656V33.52h-8.362V18.61zm34.465-7.96h.37c2.587 0 4.496.997 5.728 2.99h.047c.061 0 .169-.766.323-2.3v-.139l.046-.046h7.161l.046.046h.046c-.123 1.627-.184 3.698-.184 6.212V30.3c0 5.03-1.109 8.497-3.327 10.4-2.125 2.085-5.467 3.129-10.025 3.129-3.296 0-6.145-.569-8.547-1.703v-.046l1.617-6.304h.046c2.187 1.104 4.405 1.656 6.653 1.656 2.587 0 4.25-1.12 4.99-3.359a7.634 7.634 0 00.184-1.657V20.497c0-1.288-.493-2.315-1.478-3.083a3.25 3.25 0 00-1.663-.46c-1.755 0-2.88.89-3.372 2.67-.216.767-.324 1.718-.324 2.852v.046c0 2.485.832 4.127 2.495 4.924.37.154.77.23 1.201.23h.093c.246 0 .523-.03.831-.092v5.292c-.862.49-1.987.736-3.373.736h-.323c-3.389 0-6.052-1.533-7.993-4.601a12.702 12.702 0 01-1.524-6.075v-.552c0-3.62 1.231-6.656 3.696-9.11 2.002-1.75 4.188-2.624 6.56-2.624"
+            fill="#061B2B"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+            fill="#061B2B"
+          />
+          <g
+            transform="translate(105.79 5.29)"
+          >
+            <path
+              d="M1.425 3.023h-.51v-2.6H0V0h2.341v.424h-.916z"
+              fill="#061B2B"
+            />
+            <mask
+              fill="#fff"
+              id="prefix__b"
+            >
+              <use
+                xlinkHref="#prefix__a"
+              />
+            </mask>
+            <path
+              d="M4.401 3.023L3.411.498h-.018c.027.375.04.727.04 1.055v1.47h-.506V0h.786l.948 2.405h.014L5.65 0h.789v3.023h-.537V1.528A16.971 16.971 0 015.937.502h-.019l-1.024 2.52H4.4z"
+              fill="#061B2B"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#656565"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#061B2B"
+              mask="url(#prefix__b)"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="emotion-1"
+    >
+      <svg
+        className="emotion-0"
+        height={44}
+        width={113}
+      >
+        <defs>
+          <path
+            d="M2.927 0h3.512v3.023H2.927z"
+            id="prefix__a"
+          />
+        </defs>
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M.046 33.52h8.362V10.88H.046v22.64zM4.204 8.533C1.401 8.533 0 7.23 0 4.623 0 1.983 1.416.664 4.25.664c2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046z"
+            fill="#000"
+          />
+          <path
+            d="M13.074 33.52V16.954h-2.91V10.88h2.91v-.736c0-1.38.231-2.7.693-3.957.523-1.442 1.278-2.607 2.264-3.498.893-.828 1.97-1.441 3.234-1.84a11.223 11.223 0 013.372-.506c1.294 0 2.571.138 3.835.414l-.139 6.35a10.032 10.032 0 00-2.125-.23c-1.91 0-2.864.966-2.864 2.899v1.104h4.158v6.074h-4.066V33.52h-8.362zm15.8 0h8.362V10.88h-8.362v22.64zm4.158-24.987c-2.803 0-4.204-1.303-4.204-3.91 0-2.639 1.416-3.958 4.25-3.958 2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046zm7.853 10.078c0-1.38-.015-2.791-.046-4.234l-.138-3.497h7.207l.37 2.9h.138c.246-.369.539-.721.878-1.059.43-.398.908-.767 1.432-1.104 1.355-.829 2.864-1.243 4.528-1.243 5.481 0 8.223 3.267 8.223 9.801V33.52h-8.362V21.188c0-2.761-.97-4.142-2.91-4.142-.74 0-1.356.215-1.849.645-.339.338-.631.782-.877 1.334-.155.338-.232.89-.232 1.656V33.52h-8.362V18.61zm34.465-7.96h.37c2.587 0 4.496.997 5.728 2.99h.047c.061 0 .169-.766.323-2.3v-.139l.046-.046h7.161l.046.046h.046c-.123 1.627-.184 3.698-.184 6.212V30.3c0 5.03-1.109 8.497-3.327 10.4-2.125 2.085-5.467 3.129-10.025 3.129-3.296 0-6.145-.569-8.547-1.703v-.046l1.617-6.304h.046c2.187 1.104 4.405 1.656 6.653 1.656 2.587 0 4.25-1.12 4.99-3.359a7.634 7.634 0 00.184-1.657V20.497c0-1.288-.493-2.315-1.478-3.083a3.25 3.25 0 00-1.663-.46c-1.755 0-2.88.89-3.372 2.67-.216.767-.324 1.718-.324 2.852v.046c0 2.485.832 4.127 2.495 4.924.37.154.77.23 1.201.23h.093c.246 0 .523-.03.831-.092v5.292c-.862.49-1.987.736-3.373.736h-.323c-3.389 0-6.052-1.533-7.993-4.601a12.702 12.702 0 01-1.524-6.075v-.552c0-3.62 1.231-6.656 3.696-9.11 2.002-1.75 4.188-2.624 6.56-2.624"
+            fill="#000"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+            fill="#000"
+          />
+          <g
+            transform="translate(105.79 5.29)"
+          >
+            <path
+              d="M1.425 3.023h-.51v-2.6H0V0h2.341v.424h-.916z"
+              fill="#000"
+            />
+            <mask
+              fill="#fff"
+              id="prefix__b"
+            >
+              <use
+                xlinkHref="#prefix__a"
+              />
+            </mask>
+            <path
+              d="M4.401 3.023L3.411.498h-.018c.027.375.04.727.04 1.055v1.47h-.506V0h.786l.948 2.405h.014L5.65 0h.789v3.023h-.537V1.528A16.971 16.971 0 015.937.502h-.019l-1.024 2.52H4.4z"
+              fill="#000"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#656565"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#000"
+              mask="url(#prefix__b)"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="emotion-1"
+    >
+      <svg
+        className="emotion-0"
+        height={44}
+        width={113}
+      >
+        <defs>
+          <path
+            d="M2.927 0h3.512v3.023H2.927z"
+            id="prefix__a"
+          />
+        </defs>
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M.046 33.52h8.362V10.88H.046v22.64zM4.204 8.533C1.401 8.533 0 7.23 0 4.623 0 1.983 1.416.664 4.25.664c2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046z"
+            fill="#3D3D3E"
+          />
+          <path
+            d="M13.074 33.52V16.954h-2.91V10.88h2.91v-.736c0-1.38.231-2.7.693-3.957.523-1.442 1.278-2.607 2.264-3.498.893-.828 1.97-1.441 3.234-1.84a11.223 11.223 0 013.372-.506c1.294 0 2.571.138 3.835.414l-.139 6.35a10.032 10.032 0 00-2.125-.23c-1.91 0-2.864.966-2.864 2.899v1.104h4.158v6.074h-4.066V33.52h-8.362zm15.8 0h8.362V10.88h-8.362v22.64zm4.158-24.987c-2.803 0-4.204-1.303-4.204-3.91 0-2.639 1.416-3.958 4.25-3.958 2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046zm7.853 10.078c0-1.38-.015-2.791-.046-4.234l-.138-3.497h7.207l.37 2.9h.138c.246-.369.539-.721.878-1.059.43-.398.908-.767 1.432-1.104 1.355-.829 2.864-1.243 4.528-1.243 5.481 0 8.223 3.267 8.223 9.801V33.52h-8.362V21.188c0-2.761-.97-4.142-2.91-4.142-.74 0-1.356.215-1.849.645-.339.338-.631.782-.877 1.334-.155.338-.232.89-.232 1.656V33.52h-8.362V18.61zm34.465-7.96h.37c2.587 0 4.496.997 5.728 2.99h.047c.061 0 .169-.766.323-2.3v-.139l.046-.046h7.161l.046.046h.046c-.123 1.627-.184 3.698-.184 6.212V30.3c0 5.03-1.109 8.497-3.327 10.4-2.125 2.085-5.467 3.129-10.025 3.129-3.296 0-6.145-.569-8.547-1.703v-.046l1.617-6.304h.046c2.187 1.104 4.405 1.656 6.653 1.656 2.587 0 4.25-1.12 4.99-3.359a7.634 7.634 0 00.184-1.657V20.497c0-1.288-.493-2.315-1.478-3.083a3.25 3.25 0 00-1.663-.46c-1.755 0-2.88.89-3.372 2.67-.216.767-.324 1.718-.324 2.852v.046c0 2.485.832 4.127 2.495 4.924.37.154.77.23 1.201.23h.093c.246 0 .523-.03.831-.092v5.292c-.862.49-1.987.736-3.373.736h-.323c-3.389 0-6.052-1.533-7.993-4.601a12.702 12.702 0 01-1.524-6.075v-.552c0-3.62 1.231-6.656 3.696-9.11 2.002-1.75 4.188-2.624 6.56-2.624"
+            fill="#3D3D3E"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+            fill="#3D3D3E"
+          />
+          <g
+            transform="translate(105.79 5.29)"
+          >
+            <path
+              d="M1.425 3.023h-.51v-2.6H0V0h2.341v.424h-.916z"
+              fill="#3D3D3E"
+            />
+            <mask
+              fill="#fff"
+              id="prefix__b"
+            >
+              <use
+                xlinkHref="#prefix__a"
+              />
+            </mask>
+            <path
+              d="M4.401 3.023L3.411.498h-.018c.027.375.04.727.04 1.055v1.47h-.506V0h.786l.948 2.405h.014L5.65 0h.789v3.023h-.537V1.528A16.971 16.971 0 015.937.502h-.019l-1.024 2.52H4.4z"
+              fill="#3D3D3E"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#656565"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#3D3D3E"
+              mask="url(#prefix__b)"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div
+    className="emotion-6"
+  >
+    <div
+      className="emotion-8"
+    >
+      <svg
+        className="emotion-0"
+        height={44}
+        width={113}
+      >
+        <defs>
+          <path
+            d="M2.927 0h3.512v3.023H2.927z"
+            id="prefix__a"
+          />
+        </defs>
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M.046 33.52h8.362V10.88H.046v22.64zM4.204 8.533C1.401 8.533 0 7.23 0 4.623 0 1.983 1.416.664 4.25.664c2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046z"
+            fill="#fff"
+          />
+          <path
+            d="M13.074 33.52V16.954h-2.91V10.88h2.91v-.736c0-1.38.231-2.7.693-3.957.523-1.442 1.278-2.607 2.264-3.498.893-.828 1.97-1.441 3.234-1.84a11.223 11.223 0 013.372-.506c1.294 0 2.571.138 3.835.414l-.139 6.35a10.032 10.032 0 00-2.125-.23c-1.91 0-2.864.966-2.864 2.899v1.104h4.158v6.074h-4.066V33.52h-8.362zm15.8 0h8.362V10.88h-8.362v22.64zm4.158-24.987c-2.803 0-4.204-1.303-4.204-3.91 0-2.639 1.416-3.958 4.25-3.958 2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046zm7.853 10.078c0-1.38-.015-2.791-.046-4.234l-.138-3.497h7.207l.37 2.9h.138c.246-.369.539-.721.878-1.059.43-.398.908-.767 1.432-1.104 1.355-.829 2.864-1.243 4.528-1.243 5.481 0 8.223 3.267 8.223 9.801V33.52h-8.362V21.188c0-2.761-.97-4.142-2.91-4.142-.74 0-1.356.215-1.849.645-.339.338-.631.782-.877 1.334-.155.338-.232.89-.232 1.656V33.52h-8.362V18.61zm34.465-7.96h.37c2.587 0 4.496.997 5.728 2.99h.047c.061 0 .169-.766.323-2.3v-.139l.046-.046h7.161l.046.046h.046c-.123 1.627-.184 3.698-.184 6.212V30.3c0 5.03-1.109 8.497-3.327 10.4-2.125 2.085-5.467 3.129-10.025 3.129-3.296 0-6.145-.569-8.547-1.703v-.046l1.617-6.304h.046c2.187 1.104 4.405 1.656 6.653 1.656 2.587 0 4.25-1.12 4.99-3.359a7.634 7.634 0 00.184-1.657V20.497c0-1.288-.493-2.315-1.478-3.083a3.25 3.25 0 00-1.663-.46c-1.755 0-2.88.89-3.372 2.67-.216.767-.324 1.718-.324 2.852v.046c0 2.485.832 4.127 2.495 4.924.37.154.77.23 1.201.23h.093c.246 0 .523-.03.831-.092v5.292c-.862.49-1.987.736-3.373.736h-.323c-3.389 0-6.052-1.533-7.993-4.601a12.702 12.702 0 01-1.524-6.075v-.552c0-3.62 1.231-6.656 3.696-9.11 2.002-1.75 4.188-2.624 6.56-2.624"
+            fill="#fff"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+            fill="#fff"
+          />
+          <g
+            transform="translate(105.79 5.29)"
+          >
+            <path
+              d="M1.425 3.023h-.51v-2.6H0V0h2.341v.424h-.916z"
+              fill="#fff"
+            />
+            <mask
+              fill="#fff"
+              id="prefix__b"
+            >
+              <use
+                xlinkHref="#prefix__a"
+              />
+            </mask>
+            <path
+              d="M4.401 3.023L3.411.498h-.018c.027.375.04.727.04 1.055v1.47h-.506V0h.786l.948 2.405h.014L5.65 0h.789v3.023h-.537V1.528A16.971 16.971 0 015.937.502h-.019l-1.024 2.52H4.4z"
+              fill="#fff"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#656565"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#fff"
+              mask="url(#prefix__b)"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="emotion-10"
+    >
+      <svg
+        className="emotion-0"
+        height={44}
+        width={113}
+      >
+        <defs>
+          <path
+            d="M2.927 0h3.512v3.023H2.927z"
+            id="prefix__a"
+          />
+        </defs>
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M.046 33.52h8.362V10.88H.046v22.64zM4.204 8.533C1.401 8.533 0 7.23 0 4.623 0 1.983 1.416.664 4.25.664c2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046z"
+            fill="#fff"
+          />
+          <path
+            d="M13.074 33.52V16.954h-2.91V10.88h2.91v-.736c0-1.38.231-2.7.693-3.957.523-1.442 1.278-2.607 2.264-3.498.893-.828 1.97-1.441 3.234-1.84a11.223 11.223 0 013.372-.506c1.294 0 2.571.138 3.835.414l-.139 6.35a10.032 10.032 0 00-2.125-.23c-1.91 0-2.864.966-2.864 2.899v1.104h4.158v6.074h-4.066V33.52h-8.362zm15.8 0h8.362V10.88h-8.362v22.64zm4.158-24.987c-2.803 0-4.204-1.303-4.204-3.91 0-2.639 1.416-3.958 4.25-3.958 2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046zm7.853 10.078c0-1.38-.015-2.791-.046-4.234l-.138-3.497h7.207l.37 2.9h.138c.246-.369.539-.721.878-1.059.43-.398.908-.767 1.432-1.104 1.355-.829 2.864-1.243 4.528-1.243 5.481 0 8.223 3.267 8.223 9.801V33.52h-8.362V21.188c0-2.761-.97-4.142-2.91-4.142-.74 0-1.356.215-1.849.645-.339.338-.631.782-.877 1.334-.155.338-.232.89-.232 1.656V33.52h-8.362V18.61zm34.465-7.96h.37c2.587 0 4.496.997 5.728 2.99h.047c.061 0 .169-.766.323-2.3v-.139l.046-.046h7.161l.046.046h.046c-.123 1.627-.184 3.698-.184 6.212V30.3c0 5.03-1.109 8.497-3.327 10.4-2.125 2.085-5.467 3.129-10.025 3.129-3.296 0-6.145-.569-8.547-1.703v-.046l1.617-6.304h.046c2.187 1.104 4.405 1.656 6.653 1.656 2.587 0 4.25-1.12 4.99-3.359a7.634 7.634 0 00.184-1.657V20.497c0-1.288-.493-2.315-1.478-3.083a3.25 3.25 0 00-1.663-.46c-1.755 0-2.88.89-3.372 2.67-.216.767-.324 1.718-.324 2.852v.046c0 2.485.832 4.127 2.495 4.924.37.154.77.23 1.201.23h.093c.246 0 .523-.03.831-.092v5.292c-.862.49-1.987.736-3.373.736h-.323c-3.389 0-6.052-1.533-7.993-4.601a12.702 12.702 0 01-1.524-6.075v-.552c0-3.62 1.231-6.656 3.696-9.11 2.002-1.75 4.188-2.624 6.56-2.624"
+            fill="#fff"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+            fill="#fff"
+          />
+          <g
+            transform="translate(105.79 5.29)"
+          >
+            <path
+              d="M1.425 3.023h-.51v-2.6H0V0h2.341v.424h-.916z"
+              fill="#fff"
+            />
+            <mask
+              fill="#fff"
+              id="prefix__b"
+            >
+              <use
+                xlinkHref="#prefix__a"
+              />
+            </mask>
+            <path
+              d="M4.401 3.023L3.411.498h-.018c.027.375.04.727.04 1.055v1.47h-.506V0h.786l.948 2.405h.014L5.65 0h.789v3.023h-.537V1.528A16.971 16.971 0 015.937.502h-.019l-1.024 2.52H4.4z"
+              fill="#fff"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#656565"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#fff"
+              mask="url(#prefix__b)"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="emotion-12"
+    >
+      <svg
+        className="emotion-0"
+        height={44}
+        width={113}
+      >
+        <defs>
+          <path
+            d="M2.927 0h3.512v3.023H2.927z"
+            id="prefix__a"
+          />
+        </defs>
+        <g
+          fill="none"
+          fillRule="evenodd"
+        >
+          <path
+            d="M.046 33.52h8.362V10.88H.046v22.64zM4.204 8.533C1.401 8.533 0 7.23 0 4.623 0 1.983 1.416.664 4.25.664c2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046z"
+            fill="#00A7E1"
+          />
+          <path
+            d="M13.074 33.52V16.954h-2.91V10.88h2.91v-.736c0-1.38.231-2.7.693-3.957.523-1.442 1.278-2.607 2.264-3.498.893-.828 1.97-1.441 3.234-1.84a11.223 11.223 0 013.372-.506c1.294 0 2.571.138 3.835.414l-.139 6.35a10.032 10.032 0 00-2.125-.23c-1.91 0-2.864.966-2.864 2.899v1.104h4.158v6.074h-4.066V33.52h-8.362zm15.8 0h8.362V10.88h-8.362v22.64zm4.158-24.987c-2.803 0-4.204-1.303-4.204-3.91 0-2.639 1.416-3.958 4.25-3.958 2.772 0 4.188 1.319 4.25 3.957 0 2.608-1.416 3.911-4.25 3.911h-.046zm7.853 10.078c0-1.38-.015-2.791-.046-4.234l-.138-3.497h7.207l.37 2.9h.138c.246-.369.539-.721.878-1.059.43-.398.908-.767 1.432-1.104 1.355-.829 2.864-1.243 4.528-1.243 5.481 0 8.223 3.267 8.223 9.801V33.52h-8.362V21.188c0-2.761-.97-4.142-2.91-4.142-.74 0-1.356.215-1.849.645-.339.338-.631.782-.877 1.334-.155.338-.232.89-.232 1.656V33.52h-8.362V18.61zm34.465-7.96h.37c2.587 0 4.496.997 5.728 2.99h.047c.061 0 .169-.766.323-2.3v-.139l.046-.046h7.161l.046.046h.046c-.123 1.627-.184 3.698-.184 6.212V30.3c0 5.03-1.109 8.497-3.327 10.4-2.125 2.085-5.467 3.129-10.025 3.129-3.296 0-6.145-.569-8.547-1.703v-.046l1.617-6.304h.046c2.187 1.104 4.405 1.656 6.653 1.656 2.587 0 4.25-1.12 4.99-3.359a7.634 7.634 0 00.184-1.657V20.497c0-1.288-.493-2.315-1.478-3.083a3.25 3.25 0 00-1.663-.46c-1.755 0-2.88.89-3.372 2.67-.216.767-.324 1.718-.324 2.852v.046c0 2.485.832 4.127 2.495 4.924.37.154.77.23 1.201.23h.093c.246 0 .523-.03.831-.092v5.292c-.862.49-1.987.736-3.373.736h-.323c-3.389 0-6.052-1.533-7.993-4.601a12.702 12.702 0 01-1.524-6.075v-.552c0-3.62 1.231-6.656 3.696-9.11 2.002-1.75 4.188-2.624 6.56-2.624"
+            fill="#fff"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+          />
+          <path
+            d="M91.011 26.526c1.879 1.135 3.973 1.702 6.283 1.702 1.664 0 2.495-.414 2.495-1.242 0-.645-.986-1.289-2.957-1.933-2.372-.736-4.127-1.749-5.266-3.037-.986-1.135-1.464-2.423-1.433-3.865 0-2.27.893-4.126 2.68-5.568 1.848-1.472 4.25-2.209 7.207-2.209 1.294 0 2.587.138 3.881.414 1.077.215 2.033.506 2.864.875l-1.34 5.614a15.388 15.388 0 00-2.217-.829c-1.048-.276-1.987-.414-2.818-.414-1.51 0-2.264.43-2.264 1.289 0 .644 1.14 1.334 3.419 2.07 4.095 1.32 6.175 3.651 6.237 6.994 0 2.271-.848 4.08-2.541 5.43-1.848 1.443-4.466 2.163-7.854 2.163-3.111 0-5.714-.536-7.808-1.61l1.432-5.844z"
+            fill="#fff"
+          />
+          <g
+            transform="translate(105.79 5.29)"
+          >
+            <path
+              d="M1.425 3.023h-.51v-2.6H0V0h2.341v.424h-.916z"
+              fill="#fff"
+            />
+            <mask
+              fill="#fff"
+              id="prefix__b"
+            >
+              <use
+                xlinkHref="#prefix__a"
+              />
+            </mask>
+            <path
+              d="M4.401 3.023L3.411.498h-.018c.027.375.04.727.04 1.055v1.47h-.506V0h.786l.948 2.405h.014L5.65 0h.789v3.023h-.537V1.528A16.971 16.971 0 015.937.502h-.019l-1.024 2.52H4.4z"
+              fill="#fff"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#656565"
+              mask="url(#prefix__b)"
+            />
+            <path
+              d="M-101.009 27.06V11.446h-3.183V5.721h3.183v-.694c0-1.3.253-2.544.758-3.73.573-1.358 1.398-2.457 2.477-3.296.976-.78 2.155-1.359 3.537-1.735a14.105 14.105 0 013.69-.477c1.414 0 2.812.13 4.194.39l-.152 5.986a12.67 12.67 0 00-2.324-.217c-2.09 0-3.134.91-3.134 2.732v1.041h4.549v5.725h-4.448V27.06h-9.147zm17.284 0h9.147V5.72h-9.147v21.34zm4.548-23.55c-3.066 0-4.599-1.23-4.599-3.687 0-2.487 1.55-3.73 4.65-3.73 3.032 0 4.58 1.243 4.649 3.73 0 2.458-1.55 3.686-4.65 3.686h-.05zm8.59 9.497c0-1.3-.017-2.63-.05-3.99l-.152-3.296h7.884l.404 2.732h.152c.27-.346.59-.679.96-.997.472-.375.993-.723 1.567-1.04 1.482-.782 3.133-1.172 4.952-1.172 5.997 0 8.996 3.08 8.996 9.238V27.06h-9.147V15.436c0-2.602-1.062-3.903-3.184-3.903-.808 0-1.483.203-2.022.607-.37.319-.69.737-.96 1.258-.169.318-.253.839-.253 1.561v12.1h-9.146V13.008zm37.7-7.503h.405c2.83 0 4.919.94 6.266 2.82h.05c.068 0 .186-.723.355-2.17v-.13l.05-.043h7.833l.05.044h.051c-.134 1.533-.202 3.484-.202 5.855v12.144c0 4.742-1.213 8.008-3.638 9.802-2.325 1.965-5.981 2.949-10.967 2.949-3.605 0-6.721-.536-9.349-1.605v-.043l1.769-5.942h.05c2.392 1.04 4.818 1.561 7.278 1.561 2.83 0 4.65-1.056 5.458-3.166.134-.52.201-1.04.201-1.561V14.786c0-1.215-.539-2.183-1.616-2.906a3.996 3.996 0 00-1.82-.434c-1.92 0-3.15.84-3.689 2.516-.236.723-.354 1.62-.354 2.689v.043c0 2.342.91 3.89 2.73 4.64a3.87 3.87 0 001.313.217h.102c.269 0 .572-.028.91-.086v4.988c-.944.462-2.174.693-3.69.693h-.354c-3.707 0-6.62-1.445-8.743-4.337-1.111-1.792-1.667-3.7-1.667-5.725v-.52c0-3.411 1.346-6.274 4.042-8.587 2.19-1.649 4.582-2.473 7.177-2.473m17.13 14.963c2.056 1.07 4.347 1.605 6.874 1.605 1.82 0 2.729-.39 2.729-1.171 0-.607-1.079-1.214-3.234-1.822-2.595-.693-4.516-1.648-5.762-2.862-1.078-1.07-1.6-2.284-1.566-3.643 0-2.14.976-3.889 2.93-5.248 2.022-1.388 4.65-2.082 7.885-2.082 1.414 0 2.83.13 4.245.39 1.178.203 2.223.477 3.133.824L.012 11.75a18.607 18.607 0 00-2.425-.78c-1.146-.261-2.174-.391-3.083-.391-1.651 0-2.477.405-2.477 1.214 0 .607 1.247 1.258 3.74 1.952 4.48 1.243 6.755 3.44 6.823 6.592 0 2.14-.927 3.846-2.78 5.118-2.022 1.36-4.885 2.038-8.591 2.038-3.403 0-6.25-.505-8.54-1.518l1.566-5.508z"
+              fill="#fff"
+              mask="url(#prefix__b)"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+  </div>
 </div>
 `;
