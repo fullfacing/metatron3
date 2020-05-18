@@ -8,7 +8,9 @@
 
 ## About
 
-TODO
+## Goal
+
+To provide a single source of truth of patterns, documentation and best practices within the iFings team to facilitate communication and the creation of delightful products.
 
 ## Core
 
