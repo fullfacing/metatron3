@@ -1,10 +1,12 @@
 import * as ThemeUI from 'theme-ui';
+import * as Modal from 'react-modal';
 
 // Theme
 export { default as theme } from './components/theme';
 
 // Components
 export { default as Modal } from './components/modal';
+export const ReactModal = Modal;
 
 // Layout
 export { default as Flex } from './components/layout/flex';

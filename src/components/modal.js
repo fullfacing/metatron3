@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React, { Component } from 'react';
-import { jsx, Flex, Styled } from 'theme-ui';
+import { jsx, Flex } from 'theme-ui';
 import ReactModal from 'react-modal';
 import { X, ArrowLeft } from 'react-feather';
 
@@ -42,8 +42,8 @@ class ModalWrapper extends Component {
       onClick={onBack}
       sx={{
         position: 'absolute',
-        top: 45,
-        left: 20,
+        top: '6',
+        left: '4',
         zIndex: 1,
       }}
     >
@@ -57,8 +57,8 @@ class ModalWrapper extends Component {
       onClick={onClose}
       sx={{
         position: 'absolute',
-        top: 45,
-        right: 25,
+        top: '6',
+        right: '4',
         zIndex: 9999,
       }}
     >
@@ -139,11 +139,11 @@ class ModalWrapper extends Component {
                   pl: onBack && !centerTitle ? '2.5em' : 0,
                 }}
               >
-                <Styled.h3>{title}</Styled.h3>
+                <Text sx={{ fontSize: 4, fontWeight: 'bold', mt: 2, pt: 1 }}>{title}</Text>
               </Flex>
             )}
 
-            {subtitle && <Text sx={{ fontSize: 4, fontWeight: 'bold' }}>{subtitle}</Text>}
+            {subtitle && <Text sx={{ fontSize: 3, fontWeight: 'bold' }}>{subtitle}</Text>}
             {description && (
               <Text
                 sx={{
